@@ -1,0 +1,29 @@
+{% assign item = include.item %}
+{% assign item_categories = item.categories %}
+<article
+  class="news-item"
+  data-filter-item
+  data-title="{{ item.title | downcase | escape }}"
+  data-category="{% for cat in item_categories %}{{ cat | strip | downcase | escape }}{% unless forloop.last %}||{% endunless %}{% endfor %}"
+  data-year="{{ item.date | date: '%Y' }}"
+>
+  <div class="news-body">
+    <p class="news-copy">
+      {{ item.title }}
+      <span class="news-category-icons" aria-label="Categories">
+        {% for cat in item_categories %}
+          {% assign cat_key = cat | strip %}
+          {% assign category_meta = site.data.news_categories[cat_key] %}
+          <span class="news-category-icon" title="{{ category_meta.label }}" aria-label="{{ category_meta.label }}">{{ category_meta.icon }}</span>
+        {% endfor %}
+      </span>
+    </p>
+    {% if item.links %}
+    <div class="news-inline-links">
+      {% for link in item.links %}
+      <a href="{{ link.url | relative_url }}">{{ link.label }} <span aria-hidden="true">→</span></a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</article>

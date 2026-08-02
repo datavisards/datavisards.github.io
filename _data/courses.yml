@@ -1,0 +1,23 @@
+- code: COMP 6411D
+  title: Data Visualization
+  level: Postgraduate
+  offerings:
+    - term: Fall 2026
+      sort: 202609
+      status: upcoming
+    - term: Fall 2025
+      sort: 202509
+      tas:
+        - Kangyu Yuan
+        - Wenshou Zhang
+
+- code: COMP 4462
+  title: Data Visualization
+  level: Undergraduate
+  offerings:
+    - term: Spring 2026
+      sort: 202602
+      tas:
+        - Fengjie Wang
+        - Wong Hiu Tung (Annie)
+        - Ye Yilin (Ivonne)

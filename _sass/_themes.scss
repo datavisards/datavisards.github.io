@@ -1,0 +1,41 @@
+// Shared research-theme colors (homepage cards + publication tags).
+// Use .theme-card.theme-* so colors beat the card's fallback --theme.
+.theme-violet,
+.theme-card.theme-violet { --theme: #684d73; }
+.theme-orange,
+.theme-card.theme-orange { --theme: #ad5637; }
+.theme-blue,
+.theme-card.theme-blue { --theme: #315f7c; }
+.theme-brown,
+.theme-card.theme-brown { --theme: #79573d; }
+.theme-slate,
+.theme-card.theme-slate { --theme: #59666a; }
+.theme-pink,
+.theme-card.theme-pink { --theme: #94566a; }
+
+[data-theme="dark"] {
+  .theme-violet,
+  .theme-card.theme-violet { --theme: #c19ad0; }
+  .theme-orange,
+  .theme-card.theme-orange { --theme: #e39a70; }
+  .theme-blue,
+  .theme-card.theme-blue { --theme: #79b4d3; }
+  .theme-brown,
+  .theme-card.theme-brown { --theme: #c4a078; }
+  .theme-slate,
+  .theme-card.theme-slate { --theme: #a6b8bc; }
+  .theme-pink,
+  .theme-card.theme-pink { --theme: #d894a9; }
+}
+
+.theme-tag {
+  display: inline-block;
+  padding: 0.12rem 0.42rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--theme) 12%, var(--color-elevated));
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--theme) 28%, transparent);
+  color: var(--theme);
+  font-size: $min-font-size;
+  font-weight: 650;
+  line-height: 1.3;
+}

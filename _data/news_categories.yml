@@ -1,0 +1,15 @@
+Milestones:
+  icon: "🎉"
+  label: Milestone
+Conference:
+  icon: "✈"
+  label: Conference
+Publications:
+  icon: "📄"
+  label: Publication
+Talks:
+  icon: "🎙"
+  label: Talk
+Awards:
+  icon: "🏆"
+  label: Awards & Recognitions

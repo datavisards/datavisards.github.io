@@ -1,0 +1,6 @@
+{% assign sponsor = include.sponsor %}
+<article class="sponsor-card">
+  <a class="sponsor-link" href="{{ sponsor.url }}" target="_blank" rel="noopener" aria-label="{{ sponsor.name }}">
+    <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}" loading="lazy">
+  </a>
+</article>

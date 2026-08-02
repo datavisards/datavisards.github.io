@@ -1,0 +1,34 @@
+{%- assign author = include.author -%}
+{%- assign is_lab_author = false -%}
+
+{%- for person in site.people -%}
+  {%- if person.name == author or person.publication_names contains author -%}
+    {%- assign is_lab_author = true -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- for group in site.data.students.intern_groups -%}
+  {%- for student in group.students -%}
+    {%- if student.name == author or student.publication_names contains author -%}
+      {%- assign is_lab_author = true -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+
+{%- for column in site.data.students.coursework_columns -%}
+  {%- for group in column.groups -%}
+    {%- for project in group.projects -%}
+      {%- for student in project.students -%}
+        {%- if student.name == author or student.publication_names contains author -%}
+          {%- assign is_lab_author = true -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endfor -%}
+  {%- endfor -%}
+{%- endfor -%}
+
+{%- if is_lab_author -%}
+<strong class="lab-author">{{ author }}</strong>
+{%- else -%}
+{{ author }}
+{%- endif -%}

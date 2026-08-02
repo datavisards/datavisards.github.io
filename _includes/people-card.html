@@ -1,0 +1,14 @@
+{% assign person = include.person %}
+{% assign photo = person.photo | default: '/assets/images/people/placeholder.svg' %}
+{% assign photo_fun = person.photo_fun | default: photo %}
+{% if person.website %}<a class="people-card people-card-link" href="{{ person.website }}" aria-label="{{ person.name }} website">{% else %}<article class="people-card">{% endif %}
+  <div class="people-photo-swap">
+    <img class="people-photo" src="{{ photo | relative_url }}" alt="Portrait of {{ person.name }}" loading="lazy">
+    <img class="people-photo-fun" src="{{ photo_fun | relative_url }}" alt="" loading="lazy">
+  </div>
+  <h3 class="people-name">{{ person.name }}</h3>
+  <p class="people-program">{{ person.program }}{% if person.period %} · {{ person.period }}{% endif %}</p>
+  {% if person.co_supervisor %}
+  <p class="people-co-supervisor">(co-supervised w/ {{ person.co_supervisor }})</p>
+  {% endif %}
+{% if person.website %}</a>{% else %}</article>{% endif %}

@@ -1,0 +1,28 @@
+$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+// 16px ≈ 12pt — body text floor; UI chrome may go down to ~10pt (0.8125rem)
+$base-font-size: 100%;
+$base-line-height: 1.58;
+$min-font-size: 0.8125rem; // ~13px / 10pt at 16px root
+
+$spacing-unit: 32px;
+$content-width: 1080px;
+
+$text-color: var(--color-text);
+$background-color: var(--color-background);
+$brand-color: var(--color-primary);
+$link-color: var(--color-link);
+
+$grey-color: var(--color-muted);
+$grey-color-lightest: var(--color-surface);
+$border-color: var(--color-border);
+$surface-color: var(--color-surface);
+$accent-color: var(--color-accent);
+
+$on-palm: 600px;
+$on-laptop: 800px;
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}

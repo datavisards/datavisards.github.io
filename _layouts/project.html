@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+{% assign video = page.links.video %}
+
+<article class="project-page">
+  <p class="project-back"><a href="{{ '/publications/' | relative_url }}">← All publications</a></p>
+
+  <header class="project-header">
+    {% if page.tags %}
+    <div class="pub-tags">{% for tag in page.tags %}{% include theme-tag.html tag=tag %}{% endfor %}</div>
+    {% endif %}
+    <h1>{{ page.title }}</h1>
+    <p class="project-authors">{% for author in page.authors %}{% include publication-author.html author=author %}{% if page.equal_contributors contains author %}<sup>*</sup>{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+    {% if page.equal_contributors %}<p class="contribution-note"><sup>*</sup> Equal contribution</p>{% endif %}
+    <p class="project-venue">{{ page.venue }} · {{ page.year }}</p>
+    {% if page.recognitions %}<p class="pub-recognitions">{% for recognition in page.recognitions %}<span>★ {{ recognition }}</span>{% endfor %}</p>{% endif %}
+
+    <div class="pub-actions project-actions">
+      {% if page.pdf %}
+      <a class="icon-button icon-button-primary" href="{{ page.pdf | relative_url }}" target="_blank" rel="noopener">
+        {% include icon.html name='paper' %}<span>PDF</span>
+      </a>
+      {% endif %}
+      {% if page.doi %}
+      <a class="icon-button" href="{{ page.doi }}" target="_blank" rel="noopener">
+        {% include icon.html name='doi' %}<span>DOI</span>
+      </a>
+      {% endif %}
+      {% for link in page.links %}
+      {% assign link_name = link[0] %}
+      <a class="icon-button" href="{{ link[1] }}" target="_blank" rel="noopener">
+        {% include icon.html name=link_name %}<span>{{ link_name | capitalize }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </header>
+
+  <section class="project-media{% unless video %} project-media-solo{% endunless %}">
+    <figure class="project-teaser">
+      <img src="{{ page.image | default: '/assets/images/logos/logo.png' }}" alt="Teaser for {{ page.title }}">
+    </figure>
+    {% if video %}
+    <div class="project-video">
+      <div class="video-embed">
+        {% assign video_id = video | split: '/' | last %}
+        <iframe src="https://www.youtube-nocookie.com/embed/{{ video_id }}" title="{{ page.title }} video" loading="lazy" allowfullscreen></iframe>
+      </div>
+    </div>
+    {% endif %}
+  </section>
+
+  {% if page.abstract %}
+  <section class="project-section">
+    <h2>Abstract</h2>
+    <div class="project-abstract">{{ page.abstract | markdownify }}</div>
+  </section>
+  {% endif %}
+
+  {% if page.citation %}
+  <section class="project-section">
+    <div class="section-heading-row">
+      <h2>Citation</h2>
+      <button class="icon-button copy-button" type="button" data-copy-target="citation-{{ page.slug }}">
+        {% include icon.html name='copy' %}<span>Copy BibTeX</span>
+      </button>
+    </div>
+    <pre class="pub-citation" id="citation-{{ page.slug }}"><code>{{ page.citation }}</code></pre>
+  </section>
+  {% endif %}
+</article>

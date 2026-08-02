@@ -1,0 +1,23 @@
+{% assign current = page.url | remove: 'index.html' %}
+
+<nav aria-label="Main navigation">
+  <a class="site-title" href="{{ '/' | relative_url }}">
+    <img class="site-logo" src="{{ '/assets/images/logos/logo.png' | relative_url }}" alt="{{ site.title }}">
+  </a>
+
+  <div class="site-nav-links">
+    {% for item in site.data.navigation %}
+      {% assign is_active = false %}
+      {% if item.url == '/' and current == '/' %}
+        {% assign is_active = true %}
+      {% elsif item.url != '/' and current contains item.url %}
+        {% assign is_active = true %}
+      {% endif %}
+      <a href="{{ item.url | relative_url }}"{% if is_active %} aria-current="page"{% endif %}>{{ item.label }}</a>
+    {% endfor %}
+  </div>
+
+  <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch color theme">
+    <span class="theme-toggle-icon" aria-hidden="true">◐</span>
+  </button>
+</nav>

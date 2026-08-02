@@ -1,0 +1,7 @@
+{% assign tag_color = '' %}
+{% for theme in site.data.research %}
+  {% if theme.title == include.tag %}
+    {% assign tag_color = theme.color %}
+  {% endif %}
+{% endfor %}
+<span class="theme-tag{% if tag_color != '' %} theme-{{ tag_color }}{% endif %}">{{ include.tag }}</span>

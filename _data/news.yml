@@ -1,0 +1,112 @@
+# Newest first. Categories: Milestones | Conference | Publications | Talks | Awards
+- date: 2026-11-09
+  title: Two papers at IEEE VIS 2026. Congrats Theo and Shuvam!
+  categories: [Publications, Conference, Talks]
+  links:
+    - { label: FYI, url: /projects/2027-fyi/ }
+    - { label: PoseForge, url: /projects/2027-poseforge/ }
+- date: 2026-11-09
+  title: Arpit serving as Archive Chair for IEEE VIS 2026.
+  categories: [Conference]
+- date: 2026-09-01
+  title: Welcome Xiaoyu, Zhiteng, Jianheng, Theo, and Jieliang to the lab.
+  categories: [Milestones]
+- date: 2026-07-31
+  title: Xiaoyu named a Tang Scholar through the Xiaoo Tang Scholarship 2026–27. Congrats Xiaoyu!
+  categories: [Awards]
+- date: 2026-07-19
+  title: Arpit gave an invited talk at ChinaVis 2026.
+  categories: [Conference, Talks]
+- date: 2026-07-17
+  title: Arpit gave an invited guest lecture at the ZJU International Summer School.
+  categories: [Talks]
+- date: 2026-06-24
+  title: Giann, Cyrus, and Arpit won the CSE Best FYP Award.
+  categories: [Awards]
+- date: 2026-06-01
+  title: Welcome Olivia, Kushall, and Martin to the lab as research interns.
+  categories: [Milestones]
+- date: 2026-05-11
+  title: Welcome Sujal, Shuvam, and Tina to the lab as research interns.
+  categories: [Milestones]
+- date: 2026-04-15
+  title: Theo awarded the AFLSP 2026–27 scholarship. Congrats Theo!
+  categories: [Awards]
+- date: 2026-04-15
+  title: Eman named 1st runner-up in the 2026 3MT competition at HKUST. Congrats Eman!
+  categories: [Awards]
+- date: 2026-04-13
+  title: Three papers and three extended abstracts at CHI 2026. Congrats Yanwei, Jianheng, Antariksh, and Haichang!
+  categories: [Publications, Conference, Talks]
+  links:
+    - { label: Vipera, url: /projects/2026-vipera/ }
+    - { label: WebSeek, url: /projects/2026-webseek/ }
+    - { label: Elicitation Study, url: /projects/2026-elicitation-study/ }
+    - { label: SuperProvenanceWidgets, url: /projects/2026-superprovenancewidgets/ }
+    - { label: Alignment–Process–Outcome, url: /projects/2026-alignment-process-outcome/ }
+    - { label: GenAI References, url: /projects/2026-analyzing-genai-references/ }
+- date: 2026-01-12
+  title: Arpit gave invited talks at Zhejiang University, Nanjing University, Tongji University, and ShanghaiTech University.
+  categories: [Talks]
+- date: 2025-11-02
+  title: Arpit received the 2025 IEEE VGTC Visualization Dissertation Award.
+  categories: [Awards]
+  links: [{ label: Dissertation, url: /projects/2024-guidance-dissertation/ }]
+- date: 2025-11-02
+  title: Two works at IEEE VIS 2025. Congrats Tenghao!
+  categories: [Publications, Conference, Talks]
+  links:
+    - { label: ProvenanceLens, url: /projects/2025-provenance-lens/ }
+    - { label: NL4DV-Stylist, url: /projects/2025-nl4dv-stylist/ }
+- date: 2025-09-23
+  title: One paper in CaGIS 2025.
+  categories: [Publications]
+  links: [{ label: Exploropleth, url: /projects/2025-exploropleth/ }]
+- date: 2025-09-22
+  title: Arpit presented at the HKUST CSE postgraduate seminar.
+  categories: [Talks]
+- date: 2025-09-12
+  title: Arpit joined the HKUST Engineering Research for Global Challenges and postgraduate studies panel.
+  categories: [Talks]
+- date: 2025-09-02
+  title: Welcome Yanwei, Fengjie, and Eman to the lab.
+  categories: [Milestones]
+- date: 2025-09-02
+  title: Welcome Haichang to the lab as a research intern.
+  categories: [Milestones]
+- date: 2025-08-18
+  title: Arpit gave invited talks at IISc Bangalore, IIT Bombay, IIT Madras, IIT Kharagpur, IIT Guwahati, IIT (ISM) Dhanbad, and IIIT Bangalore.
+  categories: [Talks]
+- date: 2025-05-07
+  title: Arpit presented at the HKUST CSE undergraduate seminar.
+  categories: [Talks]
+- date: 2025-05-04
+  title: Arpit gave an invited talk at the ERFI Lab at City U.
+  categories: [Talks]
+- date: 2025-05-02
+  title: Arpit served as a panelist and session chair at the DAIS Workshop at ICDE 2025.
+  categories: [Conference, Talks]
+- date: 2025-04-30
+  title: Arpit presented at the HKUST CSE Research and Technology Forum 2025.
+  categories: [Talks]
+- date: 2025-04-01
+  title: Attended the GBA Pre-CHI 2025 conference at City U.
+  categories: [Conference]
+- date: 2025-03-24
+  title: One paper at ACM IUI 2025.
+  categories: [Publications, Conference, Talks]
+  links: [{ label: Guidance Source Matters, url: /projects/2025-guidance-source-matters/ }]
+- date: 2025-03-01
+  title: One paper at ACM CSCW 2025.
+  categories: [Publications, Conference, Talks]
+  links: [{ label: Cartographers in Cubicles, url: /projects/2025-cartographers-in-cubicles/ }]
+- date: 2025-02-01
+  title: Welcome Tenghao to the lab as a research intern.
+  categories: [Milestones]
+- date: 2025-01-01
+  title: One paper in IEEE TVCG 2025.
+  categories: [Publications]
+  links: [{ label: ProvenanceWidgets, url: /projects/2025-provenance-widgets/ }]
+- date: 2025-01-01
+  title: Launched DataVisards!
+  categories: [Milestones]

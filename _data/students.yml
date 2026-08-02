@@ -1,0 +1,93 @@
+coursework_columns:
+  - groups:
+      - course: UROP
+        projects:
+          - students:
+              - { name: Siyu Jiang, period: Summer 2026 }
+              - { name: Yik Long Wong, period: Summer 2026 }
+              - { name: Muhammad Zohaib Irfan, period: "Spring 2026 · Summer 2026" }
+              - { name: Pak Ho Lam, period: "Spring 2026 · Summer 2026" }
+              - { name: Abdelrahman Awadalla, period: "Spring 2026 · Summer 2026" }
+              - { name: Arnav Bala, period: Spring 2026 }
+  - groups:
+      - course: ARIN 6900
+        projects:
+          - students:
+              - { name: Mridul Kumar Sharma, period: "Spring 2026 · Summer 2026" }
+      - course: COMP 4971
+        projects:
+          - students:
+              - { name: Antariksh Verma, period: "Fall 2025 · Spring 2026" }
+      - course: COMP 4910
+        projects:
+          - students:
+              - { name: Muhammad Zohaib Irfan, period: Fall 2026 }
+              - { name: Abdullah Imtiaz, period: Spring 2026 }
+  - groups:
+      - course: COMP 4981
+        projects:
+          - label: "FYT #1"
+            period: 2026–27
+            students:
+              - { name: Abdelrahman Awadalla }
+          - label: "FYP #1"
+            period: 2026–27
+            students:
+              - { name: Hui Ka Tai }
+              - { name: Kong Kwok Hin }
+              - { name: Zheng Ka Cheong }
+              - { name: Wong Ka Hei }
+          - label: "FYP #2"
+            period: 2026–27
+            students:
+              - { name: Pranavi Kuntrapakam }
+              - { name: Kavya Pareek }
+              - { name: Anas Boutor }
+          - label: "FYP #3"
+            period: 2026–27
+            students:
+              - { name: Zhang Xingjian }
+              - { name: Cheung Alan Pak To }
+          - label: "FYP #4"
+            period: 2026–27
+            students:
+              - { name: Su Ziwen }
+              - { name: Tang Ho Yeung }
+              - { name: Leong Hok Weng }
+          - label: "FYP #5 (w/ Dr. Lionel Parreaux)"
+            period: 2026–27
+            students:
+              - { name: Yeung Miu Wan }
+              - { name: Oh Yeontaek }
+              - { name: Chung Ho Man }
+              - { name: Lee Eunseo }
+          - label: "FYP #1"
+            period: 2025–26
+            students:
+              - { name: Jerzy Jan Janeczek }
+              - { name: Seokhyeon Hong }
+              - { name: Angus Han Jern Loh }
+              - { name: Arnav Kithania }
+          - label: "FYP #2"
+            period: 2025–26
+            students:
+              - { name: Wong Ho Fung }
+              - { name: Tsz Yan Giann Chung }
+
+intern_groups:
+  - program: PG Intern
+    students:
+      - { name: Haichang Li, affiliation: George Mason U., period: Fall 2025 }
+      - { name: Tenghao Ji, affiliation: U. Michigan, period: Spring 2025 }
+  - program: UG Intern
+    students:
+      - { name: Tong Yiyao, affiliation: HKUST, period: Summer 2026 }
+  - program: SRP
+    students:
+      - { name: Olivia Howe, affiliation: U. Washington, period: Summer 2026 }
+      - { name: Martin Tin, affiliation: U. Toronto, period: Summer 2026 }
+      - { name: Kushall Saraf, affiliation: U. Toronto, period: Summer 2026 }
+  - program: IVISP
+    students:
+      - { name: Sujal Kaware, affiliation: IIT Kharagpur, period: Summer 2026 }
+      - { name: Shuvam Dash, publication_names: [Shuvam Swapnil Dash], affiliation: IIT (ISM) Dhanbad, period: Summer 2026 }

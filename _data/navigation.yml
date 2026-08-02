@@ -1,0 +1,14 @@
+- label: Home
+  url: /
+- label: People
+  url: /people/
+- label: Publications
+  url: /publications/
+- label: News
+  url: /news/
+- label: Courses
+  url: /courses/
+- label: Sponsors
+  url: /sponsors/
+- label: Photos
+  url: /photos/

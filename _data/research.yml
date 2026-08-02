@@ -1,0 +1,59 @@
+- title: Human-AI Interaction
+  description: Tools and studies on how humans and AI interact with each other.
+  color: violet
+  projects:
+    - label: Vipera
+      url: /projects/2026-vipera/
+    - label: WebSeek
+      url: /projects/2026-webseek/
+    - label: GenAI References
+      url: /projects/2026-analyzing-genai-references/
+    - label: Alignment–Process–Outcome
+      url: /projects/2026-alignment-process-outcome/
+
+- title: Guidance
+  description: Mixed-initiative tools where humans and systems guide each other during analysis.
+  color: orange
+  projects:
+    - label: Guidance Source Matters
+      url: /projects/2025-guidance-source-matters/
+    - label: Guidance Dissertation
+      url: /projects/2024-guidance-dissertation/
+
+- title: Analytic Provenance
+  description: Tracking, processing, and visualizing the history of users' interactions in the user interface.
+  color: blue
+  projects:
+    - label: SuperProvenanceWidgets
+      url: /projects/2026-superprovenancewidgets/
+    - label: ProvenanceWidgets
+      url: /projects/2025-provenance-widgets/
+    - label: ProvenanceLens
+      url: /projects/2025-provenance-lens/
+
+- title: Natural User Interfaces
+  description: Interfaces that enable users to naturally interact with systems.
+  color: brown
+  projects:
+    - label: FYI
+      url: /projects/2027-fyi/
+    - label: Elicitation Study
+      url: /projects/2026-elicitation-study/
+    - label: NL4DV-Stylist
+      url: /projects/2025-nl4dv-stylist/
+
+- title: Cartography & GIS
+  description: Geospatial tools and studies about how people create, compare, and use maps.
+  color: slate
+  projects:
+    - label: Exploropleth
+      url: /projects/2025-exploropleth/
+    - label: Cartographers in Cubicles
+      url: /projects/2025-cartographers-in-cubicles/
+
+- title: Sports Analytics
+  description: Tools and studies for enhancing athletic performance and coaching workflows.
+  color: pink
+  projects:
+    - label: PoseForge
+      url: /projects/2027-poseforge/

@@ -1,0 +1,31 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<link rel="icon" href="{{ '/assets/images/favicons/favicon.ico' | relative_url }}" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicons/favicon-32x32.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicons/favicon-16x16.png' | relative_url }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/favicons/apple-touch-icon.png' | relative_url }}">
+<link rel="manifest" href="{{ '/assets/images/favicons/site.webmanifest' | relative_url }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS Feed" href="{{ '/feed.xml' | relative_url }}">
+
+<script src="{{ '/assets/js/theme-init.js' | relative_url }}"></script>
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchOrganization",
+  "name": "{{ site.title }}",
+  "url": "{{ site.url }}",
+  "description": "{{ site.description | strip_newlines | escape }}",
+  "email": "{{ site.email }}",
+  "logo": "{{ '/assets/images/logos/logo.png' | absolute_url }}",
+  "parentOrganization": {
+    "@type": "CollegeOrUniversity",
+    "name": "{{ site.data.lab.institution }}"
+  }
+}
+</script>

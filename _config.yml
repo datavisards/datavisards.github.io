@@ -1,0 +1,60 @@
+# DataVisards Lab Website — https://datavisards.com
+
+title: DataVisards
+tagline: Data and Visual Analytics Research and Development Lab
+email: arpit@ust.hk
+description: >-
+  DataVisards is a research lab at HKUST led by Dr. Arpit Narechania.
+  We design human-centered tools for visual analytics, artificial intelligence, and HCI.
+baseurl: ""
+url: "https://datavisards.com"
+locale: en_US
+lang: en
+
+twitter:
+  username: DataVisards
+  card: summary
+
+logo: /assets/images/logos/logo.png
+
+author:
+  name: Arpit Narechania
+  twitter: arpitnarechania
+
+google_analytics: G-XPQBWPF4FR
+hotjar_id: 5252661
+
+collections:
+  publications:
+    output: true
+    permalink: /projects/:name/
+  people:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: project
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .sass-cache/
+  - .jekyll-cache/
+  - node_modules/
+  - README.md
+  - .github/
+
+include:
+  - CNAME
+  - robots.txt

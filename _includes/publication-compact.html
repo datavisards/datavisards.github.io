@@ -1,0 +1,5 @@
+{% assign pub = include.pub %}
+<a class="home-publication" href="{{ pub.url | relative_url }}">
+  <strong>{{ pub.title }}</strong>
+  <small>{{ pub.venue }} · {{ pub.year }}</small>
+</a>
