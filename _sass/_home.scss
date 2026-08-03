@@ -68,15 +68,15 @@
   min-height: 110px;
   margin: -1px 0 0 -1px;
   padding: 0.95rem;
-  border: 1px solid var(--color-border);
+  border: 1px solid color-mix(in srgb, var(--theme) 48%, var(--color-border));
   border-radius: 0;
-  background: var(--color-elevated);
+  background: color-mix(in srgb, var(--theme) 16%, var(--color-elevated));
   box-shadow: inset 0 3px 0 var(--theme);
 
   &:hover {
     z-index: 1;
-    border-color: color-mix(in srgb, var(--theme) 55%, var(--color-border));
-    background: color-mix(in srgb, var(--theme) 5%, var(--color-elevated));
+    border-color: color-mix(in srgb, var(--theme) 68%, var(--color-border));
+    background: color-mix(in srgb, var(--theme) 22%, var(--color-elevated));
   }
 
   h3 {
@@ -102,12 +102,11 @@
   a {
     display: inline-block;
     padding: 0.18rem 0.45rem;
-    border: 1px solid var(--color-border);
-    border-left: 3px solid var(--theme);
+    border: 1px solid color-mix(in srgb, var(--theme) 52%, var(--color-border));
     border-radius: 2px;
-    background: var(--color-surface);
+    background: color-mix(in srgb, var(--theme) 22%, var(--color-elevated));
     box-shadow: none;
-    color: var(--color-heading);
+    color: var(--theme);
     font-size: $min-font-size;
     font-weight: 650;
     letter-spacing: 0.01em;
@@ -115,9 +114,27 @@
 
     &:hover {
       border-color: var(--theme);
-      background: color-mix(in srgb, var(--theme) 10%, var(--color-elevated));
-      color: var(--color-heading);
+      background: color-mix(in srgb, var(--theme) 30%, var(--color-elevated));
+      color: var(--theme);
       text-decoration: none;
+    }
+  }
+}
+
+[data-theme="dark"] {
+  .theme-card {
+    background: color-mix(in srgb, var(--theme) 12%, var(--color-elevated));
+
+    &:hover {
+      background: color-mix(in srgb, var(--theme) 17%, var(--color-elevated));
+    }
+  }
+
+  .theme-projects a {
+    background: color-mix(in srgb, var(--theme) 16%, var(--color-elevated));
+
+    &:hover {
+      background: color-mix(in srgb, var(--theme) 24%, var(--color-elevated));
     }
   }
 }
