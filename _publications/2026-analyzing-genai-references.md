@@ -16,10 +16,15 @@ citation: |-
   @inproceedings{ouyang2026references,
     author = {Ouyang, Jianheng and Narechania, Arpit},
     title = {{Analyzing the Presentation, Content, and Utilization of References in LLM-powered Conversational AI Systems}},
-    booktitle = {Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems},
     year = {2026},
-    publisher = {ACM},
-    pages = {1--8},
-    doi = {10.1145/3772363.3798415}
+    isbn = {9798400722813},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3772363.3798415},
+    doi = {10.1145/3772363.3798415},
+    booktitle = {Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems},
+    articleno = {89},
+    numpages = {8},
+    series = {CHI EA '26}
   }
 ---

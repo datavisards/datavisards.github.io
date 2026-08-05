@@ -19,11 +19,16 @@ links:
 citation: |-
   @inproceedings{huang2026webseek,
     author = {Huang, Yanwei and Narechania, Arpit},
-    title = {{WebSeek: Facilitating Proactive and Reactive Guidance for Decision Making on the Web}},
-    booktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},
+    title = {{Facilitating Proactive and Reactive Guidance for Decision Making on the Web: A Design Probe with WebSeek}},
     year = {2026},
-    publisher = {ACM},
-    pages = {1--20},
-    doi = {10.1145/3772318.3791945}
+    isbn = {9798400722783},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3772318.3791945},
+    doi = {10.1145/3772318.3791945},
+    booktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},
+    articleno = {800},
+    numpages = {20},
+    series = {CHI '26}
   }
 ---

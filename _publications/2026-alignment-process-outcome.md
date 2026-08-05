@@ -16,11 +16,16 @@ abstract: >-
 citation: |-
   @inproceedings{li2026alignmentprocessoutcome,
     author = {Li, Haichang and Zhu, Anjun and Narechania, Arpit},
-    title = {{Alignment--Process--Outcome: Rethinking How AIs and Humans Collaborate}},
-    booktitle = {Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems},
+    title = {{Alignment–Process–Outcome: Rethinking How AIs and Humans Collaborate}},
     year = {2026},
-    publisher = {ACM},
-    pages = {1--7},
-    doi = {10.1145/3772363.3799032}
+    isbn = {9798400722813},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3772363.3799032},
+    doi = {10.1145/3772363.3799032},
+    booktitle = {Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems},
+    articleno = {84},
+    numpages = {7},
+    series = {CHI EA '26}
   }
 ---

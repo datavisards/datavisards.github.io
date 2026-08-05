@@ -21,13 +21,13 @@ links:
   video: https://youtu.be/7l6jKbS2SFI
 citation: |-
   @article{narechania2025provenancewidgets,
-    author = {Narechania, Arpit and Odak, Kaustubh and El-Assady, Mennatallah and Endert, Alex},
-    title = {{ProvenanceWidgets: A Library of UI Control Elements to Track and Dynamically Overlay Analytic Provenance}},
-    journal = {IEEE Transactions on Visualization and Computer Graphics},
-    volume = {31},
-    number = {1},
-    pages = {1235--1245},
-    year = {2025},
-    doi = {10.1109/TVCG.2024.3456144}
+    author={Narechania, Arpit and Odak, Kaustubh and El-Assady, Mennatallah and Endert, Alex},
+    journal={IEEE Transactions on Visualization and Computer Graphics}, 
+    title={{ProvenanceWidgets: A Library of UI Control Elements to Track and Dynamically Overlay Analytic Provenance}},
+    year={2025},
+    volume={31},
+    number={1},
+    pages={1235-1245},
+    doi={10.1109/TVCG.2024.3456144}
   }
 ---

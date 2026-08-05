@@ -19,13 +19,13 @@ links:
   video: https://youtu.be/GmtMw6krrNU
 citation: |-
   @article{narechania2025provenancelens,
-    author = {Narechania, Arpit and Guo, Shunan and Koh, Eunyee and Endert, Alex and Hoffswell, Jane},
-    title = {{Utilizing Provenance as an Attribute for Visual Data Analysis: A Design Probe with ProvenanceLens}},
-    journal = {IEEE Transactions on Visualization and Computer Graphics},
-    volume = {31},
-    number = {10},
-    pages = {8452--8465},
-    year = {2025},
-    doi = {10.1109/TVCG.2025.3571708}
+    author={Narechania, Arpit and Guo, Shunan and Koh, Eunyee and Endert, Alex and Hoffswell, Jane},
+    journal={IEEE Transactions on Visualization and Computer Graphics}, 
+    title={{Utilizing Provenance as an Attribute for Visual Data Analysis: A Design Probe With ProvenanceLens}},
+    year={2025},
+    volume={31},
+    number={10},
+    pages={8452-8465},
+    doi={10.1109/TVCG.2025.3571708}
   }
 ---

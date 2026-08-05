@@ -22,12 +22,17 @@ links:
   code: https://github.com/Ais0n/Vipera
 citation: |-
   @inproceedings{huang2026vipera,
-    author = {Huang, Yanwei and Deng, Wesley Hanwen and Xiao, Sijia and Eslami, Motahhare and Hong, Jason I. and Narechania, Arpit and Perer, Adam},
+    author = {Huang, Yanwei and Hanwen Deng, Wesley and Xiao, Sijia and Eslami, Motahhare and Hong, Jason I. and Narechania, Arpit and Perer, Adam},
     title = {{Vipera: Blending Visual and LLM-Driven Guidance for Systematic Auditing of Text-to-Image Generative AI}},
-    booktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},
     year = {2026},
-    publisher = {ACM},
-    pages = {1--18},
-    doi = {10.1145/3772318.3791942}
+    isbn = {9798400722783},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3772318.3791942},
+    doi = {10.1145/3772318.3791942},
+    booktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},
+    articleno = {698},
+    numpages = {18},
+    series = {CHI '26}
   }
 ---

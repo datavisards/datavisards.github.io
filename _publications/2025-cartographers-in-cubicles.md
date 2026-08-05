@@ -19,11 +19,17 @@ citation: |-
   @article{narechania2025cartographers,
     author = {Narechania, Arpit and Endert, Alex and Andris, Clio},
     title = {{Cartographers in Cubicles: How Training and Preferences of Mapmakers Interplay with Structures and Norms in Not-for-Profit Organizations}},
-    journal = {Proceedings of the ACM on Human-Computer Interaction},
+    year = {2025},
+    issue_date = {November 2025},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
     volume = {9},
     number = {7},
-    pages = {1--24},
-    year = {2025},
-    doi = {10.1145/3757461}
+    url = {https://doi.org/10.1145/3757461},
+    doi = {10.1145/3757461},
+    journal = {Proc. ACM Hum.-Comput. Interact.},
+    month = oct,
+    articleno = {CSCW280},
+    numpages = {24},
   }
 ---

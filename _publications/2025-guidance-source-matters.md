@@ -16,13 +16,18 @@ abstract: >-
 links:
   video: https://youtu.be/ASgLVAljtHk
 citation: |-
-  @inproceedings{narechania2025guidance,
-    author = {Narechania, Arpit and Endert, Alex and Sinha, Atanu R.},
+  @inproceedings{narechania2025guidancesourcematters,
+    author = {Narechania, Arpit and Endert, Alex and Sinha, Atanu R},
     title = {{Guidance Source Matters: How Guidance from AI, Expert, or a Group of Analysts Impacts Visual Data Preparation and Analysis}},
-    booktitle = {Proceedings of the 30th International Conference on Intelligent User Interfaces},
     year = {2025},
-    pages = {789--809},
-    publisher = {ACM},
-    doi = {10.1145/3708359.3712166}
+    isbn = {9798400713064},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3708359.3712166},
+    doi = {10.1145/3708359.3712166},
+    booktitle = {Proceedings of the 30th International Conference on Intelligent User Interfaces},
+    pages = {789–809},
+    numpages = {21},
+    series = {IUI '25}
   }
 ---
