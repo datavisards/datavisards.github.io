@@ -123,18 +123,22 @@
 
 [data-theme="dark"] {
   .theme-card {
-    background: color-mix(in srgb, var(--theme) 12%, var(--color-elevated));
+    border-color: color-mix(in srgb, var(--theme) 42%, var(--color-background));
+    background: color-mix(in srgb, var(--theme) 24%, var(--color-background));
 
     &:hover {
-      background: color-mix(in srgb, var(--theme) 17%, var(--color-elevated));
+      border-color: color-mix(in srgb, var(--theme) 58%, var(--color-background));
+      background: color-mix(in srgb, var(--theme) 32%, var(--color-background));
     }
   }
 
   .theme-projects a {
-    background: color-mix(in srgb, var(--theme) 16%, var(--color-elevated));
+    border-color: color-mix(in srgb, var(--theme) 48%, var(--color-background));
+    background: color-mix(in srgb, var(--theme) 28%, var(--color-background));
 
     &:hover {
-      background: color-mix(in srgb, var(--theme) 24%, var(--color-elevated));
+      border-color: var(--theme);
+      background: color-mix(in srgb, var(--theme) 38%, var(--color-background));
     }
   }
 }

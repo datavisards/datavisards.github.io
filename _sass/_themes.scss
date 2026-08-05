@@ -26,6 +26,11 @@
   .theme-card.theme-slate { --theme: #a6b8bc; }
   .theme-pink,
   .theme-card.theme-pink { --theme: #d894a9; }
+
+  .theme-tag {
+    background: color-mix(in srgb, var(--theme) 26%, var(--color-background));
+    box-shadow: 0 0 0 1px color-mix(in srgb, var(--theme) 45%, transparent);
+  }
 }
 
 .theme-tag {
