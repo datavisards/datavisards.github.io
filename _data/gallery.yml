@@ -1,3 +1,7 @@
+- date: 2026-08-07
+  src: /assets/images/photos/2026-08-interns-summer.png
+  alt: Summer interns
+  caption: Summer interns · May-Aug 2026
 - date: 2026-07-19
   src: /assets/images/photos/2026-07-chinavis-guiyang.png
   alt: ChinaVis 2026 in Guiyang
@@ -6,8 +10,8 @@
   src: /assets/images/photos/2026-07-zju-summer-school-hangzhou.png
   alt: ZJU International Summer School in Hangzhou
   caption: Invited lecture at the ZJU International Summer School · Hangzhou · Jul 2026
-- date: 2026-06-24
-  src: /assets/images/photos/2026-awardees.png
+- date: 2026-08-01
+  src: /assets/images/photos/2026-08-lab-awardees-spring-summer.png
   alt: Lab awardees
   caption: Lab awardees · Spring and Summer 2026
 - date: 2026-06-01
@@ -43,7 +47,7 @@
   alt: Invited talks in India
   caption: Invited talks at IIT Guwahati, IIT Kharagpur, IIT (ISM) Dhanbad, IIT Bombay, IIT Madras, IISc Bangalore, IIIT Bangalore · Aug 2025
 - date: 2025-05-15
-  src: /assets/images/photos/2025-talks-panels-csertf-erfilab-daisworkshop.png
+  src: /assets/images/photos/2025-05-talks-panels-csertf-erfilab-daisworkshop.png
   alt: Talks and panels
   caption: Talks and panels · CSE RTF, ERFI Lab, DAIS Workshop · May 2025
 - date: 2025-03-24
