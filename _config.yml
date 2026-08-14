@@ -28,8 +28,6 @@ collections:
   publications:
     output: true
     permalink: /projects/:name/
-  people:
-    output: false
 
 defaults:
   - scope:
@@ -43,6 +41,7 @@ sass:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-feed
 
 exclude:
@@ -53,8 +52,6 @@ exclude:
   - .jekyll-cache/
   - node_modules/
   - README.md
+  - LICENSE
+  - docs/
   - .github/
-
-include:
-  - CNAME
-  - robots.txt

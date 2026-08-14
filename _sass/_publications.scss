@@ -71,10 +71,16 @@
 .pub-recognitions {
   margin: 0 0 0.4rem;
 
-  span {
+  span,
+  a {
     color: var(--color-recognition);
     font-size: $min-font-size;
     font-weight: 600;
+  }
+
+  a:hover {
+    color: var(--color-recognition);
+    text-decoration: underline;
   }
 }
 
@@ -83,6 +89,18 @@
   flex-wrap: wrap;
   gap: 0.35rem 0.4rem;
   margin-bottom: 0.45rem;
+}
+
+.pub-type {
+  display: inline-block;
+  padding: 0.12rem 0.42rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--color-muted) 14%, var(--color-elevated));
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--color-muted) 32%, transparent);
+  color: var(--color-muted);
+  font-size: $min-font-size;
+  font-weight: 650;
+  line-height: 1.3;
 }
 
 .pub-actions {
@@ -120,6 +138,65 @@
     border-color: $link-color;
     color: $link-color;
     text-decoration: none;
+  }
+}
+
+.link-menu {
+  position: relative;
+  display: inline-flex;
+
+  summary {
+    list-style: none;
+    cursor: pointer;
+
+    &::-webkit-details-marker,
+    &::marker {
+      display: none;
+    }
+
+    &::after {
+      width: 0;
+      height: 0;
+      border-top: 4px solid currentColor;
+      border-right: 3.5px solid transparent;
+      border-left: 3.5px solid transparent;
+      opacity: 0.7;
+      content: "";
+    }
+  }
+
+  &[open] > summary {
+    border-color: $link-color;
+    color: $link-color;
+  }
+}
+
+.link-menu-panel {
+  position: absolute;
+  top: calc(100% + 0.2rem);
+  left: 0;
+  z-index: 5;
+  min-width: max-content;
+  padding: 0.25rem;
+  border: 1px solid $border-color;
+  border-radius: 7px;
+  background: var(--color-elevated);
+  box-shadow: 0 8px 20px color-mix(in srgb, black 14%, transparent);
+
+  a {
+    display: block;
+    padding: 0.4rem 0.55rem;
+    border-radius: 5px;
+    color: $text-color;
+    font-size: $min-font-size;
+    font-weight: 600;
+    white-space: nowrap;
+
+    &:hover {
+      background: color-mix(in srgb, $link-color 12%, var(--color-elevated));
+      color: $link-color;
+      text-decoration: none;
+    }
   }
 }
 
@@ -161,8 +238,8 @@
 
 .filter-facets {
   display: grid;
-  grid-template-columns: 0.7fr 1.15fr 1.25fr 1.15fr 1fr;
-  gap: 1.25rem;
+  grid-template-columns: 0.55fr 0.95fr 1.05fr 1.1fr 0.95fr 0.8fr;
+  gap: 1.1rem;
   margin-bottom: 0.9rem;
 
   section > h2 {

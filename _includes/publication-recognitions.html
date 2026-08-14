@@ -1,0 +1,11 @@
+{% if include.recognitions %}
+<p class="pub-recognitions">
+  {% for recognition in include.recognitions %}
+    {% if recognition.url %}
+    <a href="{{ recognition.url }}" target="_blank" rel="noopener">★ {{ recognition.label }}</a>
+    {% else %}
+    <span>★ {{ recognition.label }}</span>
+    {% endif %}
+  {% endfor %}
+</p>
+{% endif %}

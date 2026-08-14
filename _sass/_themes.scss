@@ -1,35 +1,51 @@
 // Shared research-theme colors (homepage cards + publication tags).
 // Use .theme-card.theme-* so colors beat the card's fallback --theme.
 .theme-violet,
-.theme-card.theme-violet { --theme: #684d73; }
+.theme-card.theme-violet { --theme: #7a5a96; }
 .theme-orange,
-.theme-card.theme-orange { --theme: #ad5637; }
+.theme-card.theme-orange { --theme: #c06b3a; }
 .theme-blue,
-.theme-card.theme-blue { --theme: #315f7c; }
+.theme-card.theme-blue { --theme: #3d6494; }
 .theme-brown,
-.theme-card.theme-brown { --theme: #79573d; }
+.theme-card.theme-brown { --theme: #8b5a2b; }
 .theme-slate,
-.theme-card.theme-slate { --theme: #59666a; }
+.theme-card.theme-slate { --theme: #4e6870; }
 .theme-pink,
-.theme-card.theme-pink { --theme: #94566a; }
+.theme-card.theme-pink { --theme: #b85a78; }
+.theme-teal,
+.theme-card.theme-teal { --theme: #2d7a74; }
+.theme-gold,
+.theme-card.theme-gold { --theme: #a07a32; }
+.theme-red,
+.theme-card.theme-red { --theme: #b85a54; }
+.theme-grey,
+.theme-card.theme-grey { --theme: #6b7280; }
 
 [data-theme="dark"] {
   .theme-violet,
-  .theme-card.theme-violet { --theme: #c19ad0; }
+  .theme-card.theme-violet { --theme: #d8b4fe; }
   .theme-orange,
-  .theme-card.theme-orange { --theme: #e39a70; }
+  .theme-card.theme-orange { --theme: #fdba74; }
   .theme-blue,
-  .theme-card.theme-blue { --theme: #79b4d3; }
+  .theme-card.theme-blue { --theme: #7dd3fc; }
   .theme-brown,
-  .theme-card.theme-brown { --theme: #c4a078; }
+  .theme-card.theme-brown { --theme: #e0b07a; }
   .theme-slate,
-  .theme-card.theme-slate { --theme: #a6b8bc; }
+  .theme-card.theme-slate { --theme: #94a3b8; }
   .theme-pink,
-  .theme-card.theme-pink { --theme: #d894a9; }
+  .theme-card.theme-pink { --theme: #f9a8d4; }
+  .theme-teal,
+  .theme-card.theme-teal { --theme: #5eead4; }
+  .theme-gold,
+  .theme-card.theme-gold { --theme: #facc15; }
+  .theme-red,
+  .theme-card.theme-red { --theme: #fca5a5; }
+  .theme-grey,
+  .theme-card.theme-grey { --theme: #9ca3af; }
 
   .theme-tag {
-    background: color-mix(in srgb, var(--theme) 26%, var(--color-background));
-    box-shadow: 0 0 0 1px color-mix(in srgb, var(--theme) 45%, transparent);
+    background: color-mix(in srgb, var(--theme) 28%, var(--color-background));
+    box-shadow: 0 0 0 1px color-mix(in srgb, var(--theme) 55%, transparent);
   }
 }
 
@@ -37,8 +53,8 @@
   display: inline-block;
   padding: 0.12rem 0.42rem;
   border-radius: 999px;
-  background: color-mix(in srgb, var(--theme) 12%, var(--color-elevated));
-  box-shadow: 0 0 0 1px color-mix(in srgb, var(--theme) 28%, transparent);
+  background: color-mix(in srgb, var(--theme) 22%, var(--color-elevated));
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--theme) 42%, transparent);
   color: var(--theme);
   font-size: $min-font-size;
   font-weight: 650;

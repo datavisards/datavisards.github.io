@@ -3,10 +3,10 @@
   level: Postgraduate
   offerings:
     - term: Fall 2026
-      sort: 202609
+      term_key: 202609
       status: upcoming
     - term: Fall 2025
-      sort: 202509
+      term_key: 202509
       tas:
         - Kangyu Yuan
         - Wenshou Zhang
@@ -16,7 +16,7 @@
   level: Undergraduate
   offerings:
     - term: Spring 2026
-      sort: 202602
+      term_key: 202602
       tas:
         - Fengjie Wang
         - Wong Hiu Tung (Annie)

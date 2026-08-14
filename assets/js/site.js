@@ -27,7 +27,12 @@
           nlp: "NLP",
           gis: "GIS",
           ui: "UI",
-          doi: "DOI"
+          doi: "DOI",
+          pvldb: "PVLDB",
+          nlviz: "NLVIZ",
+          uspto: "USPTO",
+          sigmod: "SIGMOD",
+          mlbd: "MLBD"
         };
         return special[key] || term.toUpperCase();
       });
@@ -48,10 +53,19 @@
     }
   }
 
+  function isPdfHref(href) {
+    if (!href) return false;
+    try {
+      return /\.pdf$/i.test(new URL(href, window.location.origin).pathname);
+    } catch (error) {
+      return /\.pdf($|[?#])/i.test(href);
+    }
+  }
+
   function initExternalLinks() {
     document.querySelectorAll("a[href]").forEach(function (anchor) {
       var href = anchor.getAttribute("href");
-      if (isExternalHref(href)) {
+      if (isExternalHref(href) || isPdfHref(href)) {
         anchor.setAttribute("target", "_blank");
         anchor.setAttribute("rel", "noopener");
       } else if (anchor.getAttribute("target") === "_blank") {
@@ -119,17 +133,40 @@
       var values = {};
       active[key] = new Set((initial.get(key) || "").toLowerCase().split(",").filter(Boolean));
       items.forEach(function (item) {
-        (item.dataset[key] || "").split("||").forEach(function (value) {
-          value = value.trim();
-          if (value) values[value] = (values[value] || 0) + 1;
+        (item.dataset[key] || "").split("||").forEach(function (raw) {
+          var value = raw.trim();
+          if (!value) return;
+          var matchKey = value.toLowerCase();
+          if (!values[matchKey]) values[matchKey] = { value: matchKey, label: value, count: 0 };
+          values[matchKey].count += 1;
         });
       });
 
-      var entries = Object.keys(values).map(function (value) {
-        return { value: value, count: values[value] };
-      }).sort(function (a, b) {
+      var entries = Object.keys(values).map(function (matchKey) {
+        return values[matchKey];
+      });
+      var typeOrder = [
+        "journal",
+        "conference",
+        "short paper",
+        "workshop",
+        "demo",
+        "poster",
+        "preprint",
+        "dissertation",
+        "dataset",
+        "patent"
+      ];
+      entries.sort(function (a, b) {
         if (key === "year") return b.value.localeCompare(a.value);
-        return b.count - a.count || a.value.localeCompare(b.value);
+        if (key === "type") {
+          var aType = typeOrder.indexOf(a.value);
+          var bType = typeOrder.indexOf(b.value);
+          if (aType === -1) aType = typeOrder.length;
+          if (bType === -1) bType = typeOrder.length;
+          return aType - bType || a.label.localeCompare(b.label);
+        }
+        return b.count - a.count || a.label.localeCompare(b.label);
       });
 
       var maxCount = entries.reduce(function (max, entry) {
@@ -149,8 +186,10 @@
         button.className = "facet-option" + (index >= previewLimit ? " facet-option-extra" : "");
         button.dataset.value = entry.value;
         button.hidden = index >= previewLimit;
+        var preserveLabel = key === "venue" || key === "lab" || key === "collaborators" || key === "type" || key === "tags";
+        var label = key === "year" ? entry.value : (preserveLabel ? entry.label : titleCase(entry.value));
         button.innerHTML =
-          "<span class=\"facet-label\">" + (key === "year" ? entry.value : titleCase(entry.value)) + "</span>" +
+          "<span class=\"facet-label\">" + label + "</span>" +
           "<span class=\"facet-count\">(" + entry.count + ")</span>";
         button.appendChild(bar);
 
@@ -196,7 +235,7 @@
 
         Object.keys(active).forEach(function (key) {
           if (!active[key].size) return;
-          var itemValues = (item.dataset[key] || "").split("||");
+          var itemValues = (item.dataset[key] || "").toLowerCase().split("||");
           var hasMatch = Array.from(active[key]).some(function (value) {
             return itemValues.indexOf(value) !== -1;
           });
@@ -292,6 +331,12 @@
     root.addEventListener("mouseleave", restartTimer);
     restartTimer();
   }
+
+  document.addEventListener("click", function (event) {
+    document.querySelectorAll("details.link-menu[open]").forEach(function (menu) {
+      if (!menu.contains(event.target)) menu.removeAttribute("open");
+    });
+  });
 
   initExternalLinks();
   document.querySelectorAll("[data-theme-toggle]").forEach(initThemeToggle);

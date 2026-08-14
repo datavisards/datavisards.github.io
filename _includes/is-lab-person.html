@@ -1,0 +1,25 @@
+{%- assign is_lab_person = false -%}
+{%- assign person_name = include.name -%}
+{%- for person in site.data.people.core -%}
+  {%- if person.name == person_name or person.publication_names contains person_name -%}
+    {%- assign is_lab_person = true -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- for group in site.data.people.intern_groups -%}
+  {%- for student in group.students -%}
+    {%- if student.name == person_name or student.publication_names contains person_name -%}
+      {%- assign is_lab_person = true -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+{%- for column in site.data.people.coursework_columns -%}
+  {%- for group in column.groups -%}
+    {%- for project in group.projects -%}
+      {%- for student in project.students -%}
+        {%- if student.name == person_name or student.publication_names contains person_name -%}
+          {%- assign is_lab_person = true -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endfor -%}
+  {%- endfor -%}
+{%- endfor -%}

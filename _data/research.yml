@@ -1,59 +1,103 @@
-- title: Human-AI Interaction
-  description: Tools and studies on how humans and AI interact with each other.
+- title: Human-Agent Interaction & Collaboration
+  description: Tools and studies about how humans and AI agents interact and collaborate with each other.
   color: violet
   projects:
+    - label: FYI
+      url: /projects/2027-paper-fyi/
     - label: Vipera
-      url: /projects/2026-vipera/
+      url: /projects/2026-paper-vipera/
     - label: WebSeek
-      url: /projects/2026-webseek/
-    - label: GenAI References
-      url: /projects/2026-analyzing-genai-references/
+      url: /projects/2026-paper-webseek/
     - label: Alignment–Process–Outcome
-      url: /projects/2026-alignment-process-outcome/
+      url: /projects/2026-paper-alignment-process-outcome/
+    - label: Agentic Enterprise
+      url: /projects/2025-paper-agentic-enterprise/
 
-- title: Guidance
-  description: Mixed-initiative tools where humans and systems guide each other during analysis.
+- title: Guidance & Analytic Provenance
+  description: Designing, developing, and democratizing guidance based on users' analytic behavior.
   color: orange
   projects:
+    - label: SuperProvenanceWidgets
+      url: /projects/2026-paper-super-provenance-widgets/
+    - label: ProvenanceLens
+      url: /projects/2025-paper-provenance-lens/
     - label: Guidance Source Matters
-      url: /projects/2025-guidance-source-matters/
-    - label: Guidance Dissertation
-      url: /projects/2024-guidance-dissertation/
+      url: /projects/2025-paper-guidance-source-matters/
+    - label: ProvenanceWidgets
+      url: /projects/2025-paper-provenance-widgets/
+    - label: BiasBuzz
+      url: /projects/2024-paper-biasbuzz/
+    - label: Lumos
+      url: /projects/2022-paper-lumos/
+    - label: Left, Right, & Gender
+      url: /projects/2022-paper-left-right-gender/
 
-- title: Analytic Provenance
-  description: Tracking, processing, and visualizing the history of users' interactions in the user interface.
+- title: Natural & Explainable Interfaces
+  description: Tools for enhancing user expressivity and explainability during analysis.
   color: blue
   projects:
-    - label: SuperProvenanceWidgets
-      url: /projects/2026-superprovenancewidgets/
-    - label: ProvenanceWidgets
-      url: /projects/2025-provenance-widgets/
-    - label: ProvenanceLens
-      url: /projects/2025-provenance-lens/
-
-- title: Natural User Interfaces
-  description: Interfaces that enable users to naturally interact with systems.
-  color: brown
-  projects:
-    - label: FYI
-      url: /projects/2027-fyi/
     - label: Elicitation Study
-      url: /projects/2026-elicitation-study/
+      url: /projects/2026-paper-elicitation-study/
     - label: NL4DV-Stylist
-      url: /projects/2025-nl4dv-stylist/
+      url: /projects/2025-paper-nl4dv-stylist/
+    - label: NL4DV-LLM
+      url: /projects/2024-paper-nl4dv-llm/
+    - label: NL4DV v2
+      url: /projects/2022-paper-nl4dv-v2/
+    - label: DIY
+      url: /projects/2021-paper-diy/
+    - label: NL4DV
+      url: /projects/2021-paper-nl4dv/
 
 - title: Cartography & GIS
-  description: Geospatial tools and studies about how people create, compare, and use maps.
+  description: Geospatial visualization tools and studies about how people create and use maps.
   color: slate
   projects:
-    - label: Exploropleth
-      url: /projects/2025-exploropleth/
     - label: Cartographers in Cubicles
-      url: /projects/2025-cartographers-in-cubicles/
+      url: /projects/2025-paper-cartographers-in-cubicles/
+    - label: Exploropleth
+      url: /projects/2025-paper-exploropleth/
+    - label: Resiliency
+      url: /projects/2023-paper-resiliency/
 
-- title: Sports Analytics
-  description: Tools and studies for enhancing athletic performance and coaching workflows.
+- title: Sports Analytics & Visualizations
+  description: Visual analytics tools for enhancing athletic performance and coaching workflows.
   color: pink
   projects:
     - label: PoseForge
-      url: /projects/2027-poseforge/
+      url: /projects/2027-paper-poseforge/
+
+- title: Database Systems
+  description: Tools for designing, navigating, and monitoring large data systems.
+  color: teal
+  projects:
+    - label: DataCockpit
+      url: /projects/2023-paper-datacockpit/
+    - label: DataPilot
+      url: /projects/2023-paper-datapilot/
+    - label: SQLCheck
+      url: /projects/2020-paper-sqlcheck/
+
+- title: Citations & Literature Review
+  description: Tools and studies about how people and AIs discover, review, and cite scholarly work.
+  color: gold
+  projects:
+    - label: GenAI References
+      url: /projects/2026-paper-analyzing-genai-references/
+    - label: vitaLITy 2
+      url: /projects/2024-paper-vitality-2/
+    - label: vitaLITy
+      url: /projects/2022-paper-vitality/
+    - label: vitaLITy Dataset
+      url: /projects/2021-dataset-vitality-dataset/
+
+- title: Automotive Engineering
+  description: Visual analytics tools for improving automotive systems engineering processes.
+  color: grey
+  projects:
+    - label: SafetyLens
+      url: /projects/2021-paper-safetylens/
+    - label: DataHawk
+      url: /projects/2019-paper-datahawk/
+
+- placeholder: true

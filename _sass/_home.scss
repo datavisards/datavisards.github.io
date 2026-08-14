@@ -68,14 +68,14 @@
   min-height: 110px;
   margin: -1px 0 0 -1px;
   padding: 0.95rem;
-  border: 1px solid color-mix(in srgb, var(--theme) 48%, var(--color-border));
+  border: 1px solid color-mix(in srgb, var(--theme) 42%, var(--color-border));
   border-radius: 0;
   background: color-mix(in srgb, var(--theme) 16%, var(--color-elevated));
-  box-shadow: inset 0 3px 0 var(--theme);
+  box-shadow: inset 0 3px 0 color-mix(in srgb, var(--theme) 78%, white);
 
   &:hover {
     z-index: 1;
-    border-color: color-mix(in srgb, var(--theme) 68%, var(--color-border));
+    border-color: color-mix(in srgb, var(--theme) 58%, var(--color-border));
     background: color-mix(in srgb, var(--theme) 22%, var(--color-elevated));
   }
 
@@ -93,6 +93,27 @@
   }
 }
 
+.theme-card-placeholder {
+  --theme: var(--color-border);
+  background: var(--color-elevated);
+  border-color: var(--color-border);
+  box-shadow: none;
+
+  h3 {
+    font-weight: 600;
+  }
+
+  p {
+    color: var(--color-muted);
+  }
+
+  &:hover {
+    z-index: 0;
+    background: var(--color-elevated);
+    border-color: var(--color-border);
+  }
+}
+
 .theme-projects {
   display: flex;
   flex-wrap: wrap;
@@ -102,9 +123,9 @@
   a {
     display: inline-block;
     padding: 0.18rem 0.45rem;
-    border: 1px solid color-mix(in srgb, var(--theme) 52%, var(--color-border));
+    border: 1px solid color-mix(in srgb, var(--theme) 32%, var(--color-border));
     border-radius: 2px;
-    background: color-mix(in srgb, var(--theme) 22%, var(--color-elevated));
+    background: var(--color-elevated);
     box-shadow: none;
     color: var(--theme);
     font-size: $min-font-size;
@@ -113,8 +134,8 @@
     line-height: 1.3;
 
     &:hover {
-      border-color: var(--theme);
-      background: color-mix(in srgb, var(--theme) 30%, var(--color-elevated));
+      border-color: color-mix(in srgb, var(--theme) 55%, var(--color-border));
+      background: var(--color-elevated);
       color: var(--theme);
       text-decoration: none;
     }
@@ -123,22 +144,35 @@
 
 [data-theme="dark"] {
   .theme-card {
-    border-color: color-mix(in srgb, var(--theme) 42%, var(--color-background));
-    background: color-mix(in srgb, var(--theme) 24%, var(--color-background));
+    border-color: color-mix(in srgb, var(--theme) 40%, var(--color-background));
+    background: color-mix(in srgb, var(--theme) 18%, var(--color-background));
+    box-shadow: inset 0 3px 0 color-mix(in srgb, var(--theme) 70%, black);
 
     &:hover {
-      border-color: color-mix(in srgb, var(--theme) 58%, var(--color-background));
-      background: color-mix(in srgb, var(--theme) 32%, var(--color-background));
+      border-color: color-mix(in srgb, var(--theme) 55%, var(--color-background));
+      background: color-mix(in srgb, var(--theme) 24%, var(--color-background));
     }
   }
 
   .theme-projects a {
-    border-color: color-mix(in srgb, var(--theme) 48%, var(--color-background));
-    background: color-mix(in srgb, var(--theme) 28%, var(--color-background));
+    border-color: color-mix(in srgb, var(--theme) 38%, var(--color-background));
+    background: var(--color-elevated);
 
     &:hover {
-      border-color: var(--theme);
-      background: color-mix(in srgb, var(--theme) 38%, var(--color-background));
+      border-color: color-mix(in srgb, var(--theme) 58%, var(--color-background));
+      background: var(--color-elevated);
+      color: var(--theme);
+    }
+  }
+
+  .theme-card-placeholder {
+    background: var(--color-elevated);
+    border-color: var(--color-border);
+    box-shadow: none;
+
+    &:hover {
+      background: var(--color-elevated);
+      border-color: var(--color-border);
     }
   }
 }

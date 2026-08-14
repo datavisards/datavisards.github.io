@@ -1,0 +1,37 @@
+{% for link in include.links %}
+  {% assign link_name = link[0] %}
+  {% assign link_items = link[1] %}
+  {% assign item_count = link_items | size %}
+  {% case link_name %}
+    {% when 'npm' %}{% assign link_label = 'npm' %}
+    {% when 'pypi' %}{% assign link_label = 'PyPI' %}
+    {% when 'vscode' %}{% assign link_label = 'VS Code Extension' %}
+    {% when 'system' %}{% assign link_label = 'Chrome Extension' %}
+    {% when 'media' %}{% assign link_label = 'Media' %}
+    {% else %}{% assign link_label = link_name | replace: '-', ' ' | capitalize %}
+  {% endcase %}
+  {% if item_count == 1 %}
+    {% assign item = link_items | first %}
+    {% if item.label %}{% assign link_label = item.label %}{% endif %}
+    {% assign link_is_local = false %}
+    {% assign link_scheme = item.url | slice: 0, 4 %}
+    {% if link_scheme != 'http' %}{% assign link_is_local = true %}{% endif %}
+  <a class="icon-button" href="{% if link_is_local %}{{ item.url | relative_url }}{% else %}{{ item.url }}{% endif %}" target="_blank" rel="noopener">
+    {% include icon.html name=link_name %}<span>{{ link_label }}</span>
+  </a>
+  {% else %}
+  <details class="link-menu">
+    <summary class="icon-button">
+      {% include icon.html name=link_name %}<span>{{ link_label }}</span>
+    </summary>
+    <div class="link-menu-panel">
+      {% for item in link_items %}
+        {% assign item_is_local = false %}
+        {% assign item_scheme = item.url | slice: 0, 4 %}
+        {% if item_scheme != 'http' %}{% assign item_is_local = true %}{% endif %}
+      <a href="{% if item_is_local %}{{ item.url | relative_url }}{% else %}{{ item.url }}{% endif %}" target="_blank" rel="noopener">{{ item.label | default: link_label }}</a>
+      {% endfor %}
+    </div>
+  </details>
+  {% endif %}
+{% endfor %}
