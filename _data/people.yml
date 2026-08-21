@@ -70,7 +70,7 @@ coursework_columns:
         projects:
           - students:
               - { name: Tong Yiyao, period: Fall 2026 }
-              - { name: Waled Munir, period: Fall 2026 }
+              - { name: Waleed Munir, period: Fall 2026 }
               - { name: Yik Long Wong, period: Summer 2026 · Fall 2026 }
               - { name: Siyu Jiang, period: Summer 2026 }
               - { name: Muhammad Zohaib Irfan, period: "Spring 2026 · Summer 2026" }
