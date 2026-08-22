@@ -4,7 +4,10 @@
   offerings:
     - term: Fall 2026
       term_key: 202609
-      status: upcoming
+      # status: upcoming
+      tas:
+        - Fengjie Wang
+        - Ye Yilin (Ivonne)
     - term: Fall 2025
       term_key: 202509
       tas:
