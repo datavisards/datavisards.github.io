@@ -2,10 +2,9 @@ Milestones:
   icon: "🎉"
   label: Milestone
 Conference:
-  icon: "✈"
   label: Conference
 Publications:
-  icon: "📄"
+  icon: "📜"
   label: Publication
 Talks:
   icon: "🎙"

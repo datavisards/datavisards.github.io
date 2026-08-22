@@ -10,13 +10,19 @@
   <div class="news-body">
     <p class="news-copy">
       {{ item.title }}
-      <span class="news-category-icons" aria-label="Categories">
+      {% capture category_icons %}
         {% for cat in item_categories %}
           {% assign cat_key = cat | strip %}
           {% assign category_meta = site.data.news_categories[cat_key] %}
+          {% if category_meta.icon %}
           <span class="news-category-icon" title="{{ category_meta.label }}" aria-label="{{ category_meta.label }}">{{ category_meta.icon }}</span>
+          {% endif %}
         {% endfor %}
-      </span>
+      {% endcapture %}
+      {% assign category_icons = category_icons | strip %}
+      {% if category_icons != "" %}
+      <span class="news-category-icons" aria-label="Categories">{{ category_icons }}</span>
+      {% endif %}
     </p>
     {% if item.links %}
     <div class="news-inline-links">
