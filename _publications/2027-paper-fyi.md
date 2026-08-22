@@ -21,6 +21,8 @@ abstract: >-
 links:
   video:
     - url: https://youtu.be/OOIyrkVbEzU
+  demo:
+    - url: https://fyi.datavisards-hkust.workers.dev/app
   code:
     - url: https://github.com/datavisards/FYI
 citation: |-

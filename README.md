@@ -15,4 +15,4 @@ Open <http://127.0.0.1:4000>. Pushes to `main` deploy through GitHub Pages.
 
 - [Pages](pages)
 - [Publications](_publications) — [how to add](docs/publications.md)
-- [People, research, news, photos, courses, sponsors](_data) — [how to edit](docs/data.md)
+- [People, research, news, software, photos, courses, sponsors](_data) — [how to edit](docs/data.md)

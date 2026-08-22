@@ -1,0 +1,30 @@
+{% assign tool = include.tool %}
+<article class="software-card{% if tool.demo %} software-card-has-demo{% endif %}">
+  {% if tool.demo %}
+  <a class="software-card-main" href="{{ tool.demo }}" target="_blank" rel="noopener">
+  {% else %}
+  <div class="software-card-main">
+  {% endif %}
+    <span class="software-teaser">
+      <img src="{{ tool.image | relative_url }}" alt="" loading="lazy">
+    </span>
+    <h2 class="software-name">{{ tool.name }}</h2>
+    <p class="software-copy">{{ tool.description }}</p>
+  {% if tool.demo %}
+  </a>
+  {% else %}
+  </div>
+  {% endif %}
+  <div class="software-actions">
+    {% if tool.code %}
+    <a class="icon-button software-github" href="{{ tool.code }}" target="_blank" rel="noopener">
+      {% include icon.html name='github' %}<span>GitHub</span><span class="github-stars" hidden>{% include icon.html name='star' %}<span data-github-stars></span></span>
+    </a>
+    {% endif %}
+    {% if tool.package %}
+    <a class="icon-button software-package" href="{{ tool.package.url }}" target="_blank" rel="noopener">
+      {% include icon.html name='rocket' %}<span>{{ tool.package.label }}</span>
+    </a>
+    {% endif %}
+  </div>
+</article>

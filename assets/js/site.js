@@ -332,6 +332,61 @@
     restartTimer();
   }
 
+  function githubRepoFromHref(href) {
+    try {
+      var path = new URL(href, window.location.origin).pathname.replace(/^\/|\/$/g, "").split("/");
+      if (path.length >= 2 && path[0] && path[1]) return path[0] + "/" + path[1];
+    } catch (error) {}
+    return "";
+  }
+
+  function cacheGet(key) {
+    try {
+      var raw = window.localStorage.getItem(key);
+      if (!raw) return null;
+      var item = JSON.parse(raw);
+      if (!item || Date.now() - item.saved > 6 * 60 * 60 * 1000) return null;
+      return item.value;
+    } catch (error) {
+      return null;
+    }
+  }
+
+  function cacheSet(key, value) {
+    try {
+      window.localStorage.setItem(key, JSON.stringify({ value: value, saved: Date.now() }));
+    } catch (error) {}
+  }
+
+  function showGithubStars(button, count) {
+    var slot = button.querySelector(".github-stars");
+    var label = button.querySelector("[data-github-stars]");
+    if (!slot || !label) return;
+    label.textContent = count;
+    slot.hidden = false;
+  }
+
+  function initGithubStars() {
+    document.querySelectorAll("a.software-github").forEach(function (button) {
+      var repo = githubRepoFromHref(button.getAttribute("href"));
+      if (!repo) return;
+      var cacheKey = "gh-stars:" + repo;
+      var cached = cacheGet(cacheKey);
+      if (cached != null) {
+        showGithubStars(button, cached);
+        return;
+      }
+      fetch("https://api.github.com/repos/" + repo)
+        .then(function (response) { return response.ok ? response.json() : null; })
+        .then(function (data) {
+          if (!data || typeof data.stargazers_count !== "number") return;
+          cacheSet(cacheKey, data.stargazers_count);
+          showGithubStars(button, data.stargazers_count);
+        })
+        .catch(function () {});
+    });
+  }
+
   document.addEventListener("click", function (event) {
     document.querySelectorAll("details.link-menu[open]").forEach(function (menu) {
       if (!menu.contains(event.target)) menu.removeAttribute("open");
@@ -342,6 +397,7 @@
   document.querySelectorAll("[data-theme-toggle]").forEach(initThemeToggle);
   document.querySelectorAll("[data-filter-root]").forEach(initFilters);
   document.querySelectorAll("[data-photo-carousel]").forEach(initPhotoCarousel);
+  initGithubStars();
 
   document.querySelectorAll("[data-copy-target]").forEach(function (button) {
     button.addEventListener("click", function () {

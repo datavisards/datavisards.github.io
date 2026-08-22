@@ -33,7 +33,9 @@ links:
   slides:
     - url: /assets/pdfs/slides/2023-slides-datacockpit.pdf
   code:
-    - url: https://github.com/datacockpit-org
+    - url: https://github.com/orgs/datacockpit-org
+  pypi:
+    - url: https://pypi.org/project/datacockpit/
 citation: |-
   @inproceedings{narechania2023datacockpit,
       author = {Narechania, Arpit and Chakraborty, Surya and Agarwal, Shivam and Sinha, Atanu R and Rossi, Ryan A. and Du, Fan and Hoffswell, Jane and Guo, Shunan and Koh, Eunyee and Endert, Alex and Navathe, Shamkant},

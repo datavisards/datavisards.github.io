@@ -1,0 +1,133 @@
+# demo: card click. code: GitHub. package: install button (label + url).
+- name: FYI
+  description: Browser extension for fact-checking data claims in data-driven articles.
+  image: /assets/images/software/fyi.png
+  demo: https://fyi.datavisards-hkust.workers.dev/app
+  code: https://github.com/datavisards/FYI
+
+- name: PoseForge
+  description: Analyze cricket batting technique from video footage.
+  image: /assets/images/software/poseforge.png
+  code: https://github.com/datavisards/PoseForge
+
+- name: WebSeek
+  description: Chrome extension for doing everyday tasks (e.g., ecommerce) on the web.
+  image: /assets/images/software/webseek.png
+  code: https://github.com/datavisards/WebSeek
+  package:
+    label: Chrome Extension
+    url: https://chromewebstore.google.com/detail/webseek/bmmfomheomfealmdjhobphnobadlgdga
+
+- name: Vipera
+  description: Audit text-to-image models with visual and LLM-driven guidance.
+  image: /assets/images/software/vipera.png
+  demo: http://191host013.mobilenet.cse.ust.hk/vipera/
+  code: https://github.com/Ais0n/Vipera
+
+- name: ProvenanceWidgets
+  description: JavaScript UI controls that track and overlay analytic provenance.
+  image: /assets/images/software/provenance-widgets.png
+  demo: https://provenancewidgets.github.io/showcase/#/playground
+  code: https://github.com/ProvenanceWidgets/ProvenanceWidgets
+  package:
+    label: npm
+    url: https://www.npmjs.com/package/provenance-widgets
+
+- name: Exploropleth
+  description: Browse, compare, combine, customize, export choropleth maps.
+  image: /assets/images/software/exploropleth.png
+  demo: https://exploropleth.github.io/exploropleth
+  code: https://github.com/exploropleth/exploropleth
+
+- name: Chess Annotator
+  description: Sketch arrows on a chessboard to annotate or actually play a game.
+  image: /assets/images/software/chess-annotator.png
+  demo: https://narechania.com/chess-annotator/
+  code: https://github.com/arpitnarechania/chess-annotator
+
+- name: BinGuru
+  description: TypeScript library for data binning/classification methods.
+  image: /assets/images/software/binguru.jpg
+  demo: https://observablehq.com/@arpitnarechania/binguru-demo
+  code: https://github.com/exploropleth/binguru
+  package:
+    label: npm
+    url: https://www.npmjs.com/package/binguru
+
+- name: NL4DV
+  description: Python toolkit that turns natural language queries into visualizations.
+  image: /assets/images/software/nl4dv.png
+  demo: https://nl4dv-14924aab225c.herokuapp.com
+  code: https://github.com/nl4dv/nl4dv
+  package:
+    label: PyPI
+    url: https://pypi.org/project/nl4dv/
+
+- name: vitaLITy
+  description: Find semantically related academic papers in an embedding space.
+  image: /assets/images/software/vitality.png
+  demo: https://vitality.mathcs.emory.edu/vitality2/
+  code: https://github.com/vitality-vis
+
+- name: DataCockpit
+  description: Python toolkit for navigating and monitoring data lakes.
+  image: /assets/images/software/datacockpit.png
+  code: https://github.com/orgs/datacockpit-org
+  package:
+    label: PyPI
+    url: https://pypi.org/project/datacockpit/
+
+- name: Lumos
+  description: Visual analysis tool that surfaces interaction history during exploration.
+  image: /assets/images/software/lumos.png
+  demo: https://lumos-webapp-4aeadb3bf30d.herokuapp.com/
+  code: https://github.com/lumos-vis/Lumos
+
+- name: SQLCheck
+  description: VS Code extension that detects and diagnoses SQL anti-patterns.
+  image: /assets/images/software/sqlcheck.png
+  package:
+    label: VS Code
+    url: https://marketplace.visualstudio.com/items?itemName=georgiatechdb.sqlcheck
+
+- name: d3-molecule
+  description: Interactive D3 library for learning chemical bonding.
+  image: /assets/images/software/d3-molecule.png
+  demo: https://narechania.com/d3-molecule
+  code: https://github.com/arpitnarechania/d3-molecule
+
+- name: d3-kagi
+  description: D3 library for rendering Kagi charts.
+  image: /assets/images/software/d3-kagi.png
+  demo: https://narechania.com/d3-kagi
+  code: https://github.com/arpitnarechania/d3-kagi
+
+- name: d3-screeplot
+  description: D3 library for rendering scree plots.
+  image: /assets/images/software/d3-screeplot.png
+  demo: https://narechania.com/d3-screeplot
+  code: https://github.com/arpitnarechania/d3-screeplot
+
+- name: d3-spotmatrix
+  description: D3 library for rendering spot matrix charts.
+  image: /assets/images/software/d3-spotmatrix.png
+  demo: https://narechania.com/d3-spotmatrix
+  code: https://github.com/arpitnarechania/d3-spotmatrix
+
+- name: d3-dotmatrix
+  description: D3 library for rendering dot matrix charts.
+  image: /assets/images/software/d3-dotmatrix.png
+  demo: https://narechania.com/d3-dotmatrix
+  code: https://github.com/arpitnarechania/d3-dotmatrix
+
+- name: d3-tallychart
+  description: D3 library for rendering tally charts.
+  image: /assets/images/software/d3-tallychart.png
+  demo: https://narechania.com/d3-tallychart
+  code: https://github.com/arpitnarechania/d3-tallychart
+
+- name: d3-clockmatrix
+  description: D3 library for rendering clock matrices.
+  image: /assets/images/software/d3-clockmatrix.png
+  demo: https://narechania.com/d3-clockmatrix
+  code: https://github.com/arpitnarechania/d3-clockmatrix

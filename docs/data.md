@@ -62,6 +62,21 @@ Newest first. `categories` keys: `Milestones`, `Conference`, `Publications`, `Ta
     - { label: Short name, url: /projects/2026-paper-name/ }
 ```
 
+## Software (`software.yml`)
+
+One card per tool, newest first. Teasers live in `assets/images/software/` (one image per tool, even if it started as a publication figure). Clicking the card opens `demo` when present. Buttons are `code` (GitHub, with live star count for repo URLs) and optional `package` (`label` + `url`).
+
+```yaml
+- name: Tool Name
+  description: One sentence about what it does.
+  image: /assets/images/software/name.png
+  demo: https://...
+  code: https://github.com/...
+  package:
+    label: npm
+    url: https://www.npmjs.com/package/...
+```
+
 ## Photos (`gallery.yml`)
 
 Images: `assets/images/photos/`.
