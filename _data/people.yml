@@ -92,6 +92,10 @@ coursework_columns:
           - students:
               - { name: Muhammad Zohaib Irfan, period: Fall 2026 }
               - { name: Abdullah Imtiaz, period: Spring 2026 }
+      - course: CSIT 6910
+        projects:
+          - students:
+              - { name: Jingyi Wang, period: Fall 2026 }
   - groups:
       - course: COMP 4981
         projects:
