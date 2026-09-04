@@ -86,6 +86,7 @@ coursework_columns:
         projects:
           - students:
               - { name: Jingyi Wang, period: Fall 2026 }
+              - { name: Ng Jia Sheng Jason, period: Fall 2026 }
       - course: COMP 4971
         projects:
           - students:
