@@ -82,6 +82,11 @@ coursework_columns:
         projects:
           - students:
               - { name: Mridul Kumar Sharma, period: "Spring 2026 · Summer 2026" }
+      - course: CSIT 6910
+        projects:
+          - students:
+              - { name: Jingyi Wang, period: Fall 2026 }
+              - { name: Ng Jia Sheng Jason, period: Fall 2026 }
       - course: COMP 4971
         projects:
           - students:
