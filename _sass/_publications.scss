@@ -183,14 +183,21 @@
   background: var(--color-elevated);
   box-shadow: 0 8px 20px color-mix(in srgb, black 14%, transparent);
 
-  a {
+  a,
+  button {
     display: block;
+    width: 100%;
     padding: 0.4rem 0.55rem;
+    border: 0;
     border-radius: 5px;
+    background: none;
     color: $text-color;
+    font-family: inherit;
     font-size: $min-font-size;
     font-weight: 600;
+    text-align: left;
     white-space: nowrap;
+    cursor: pointer;
 
     &:hover {
       background: color-mix(in srgb, $link-color 12%, var(--color-elevated));
@@ -386,12 +393,29 @@
   background: $grey-color-lightest;
   border-left: 3px solid $brand-color;
   overflow-x: auto;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
   font-size: $min-font-size;
   line-height: 1.45;
 
   code {
+    font-family: inherit;
+    font-size: inherit;
     white-space: pre-wrap;
     word-break: break-word;
+  }
+}
+
+.citation-block {
+  margin-top: 1.15rem;
+
+  &:first-of-type {
+    margin-top: 0.85rem;
+  }
+
+  h3 {
+    padding: 0;
+    font-size: 1rem;
+    font-weight: 650;
   }
 }
 

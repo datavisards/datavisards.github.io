@@ -30,7 +30,7 @@ links:
     - url: https://youtu.be/AM6w_3Y1MIQ
   slides:
     - url: /assets/pdfs/slides/2023-slides-datapilot.pdf
-citation: |-
+citation_bibtex: |-
   @inproceedings{narechania2023datapilot,
       author = {Narechania, Arpit and Du, Fan and Sinha, Atanu R and Rossi, Ryan and Hoffswell, Jane and Guo, Shunan and Koh, Eunyee and Navathe, Shamkant B and Endert, Alex},
       title = {{DataPilot: Utilizing Quality and Usage Information for Subset Selection during Visual Data Preparation}},
@@ -46,4 +46,6 @@ citation: |-
       location = {Hamburg, Germany},
       series = {CHI '23}
     }
+citation_apa: |-
+  Narechania, A., Du, F., Sinha, A. R., Rossi, R., Hoffswell, J., Guo, S., Koh, E., Navathe, S. B., & Endert, A. (2023). DataPilot: Utilizing Quality and Usage Information for Subset Selection during Visual Data Preparation. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI '23) (Article 809, 18 pages). Association for Computing Machinery. https://doi.org/10.1145/3544548.3581509
 ---

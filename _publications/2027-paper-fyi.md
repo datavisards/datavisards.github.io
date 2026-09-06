@@ -25,13 +25,15 @@ links:
     - url: https://fyi.datavisards-hkust.workers.dev/app
   code:
     - url: https://github.com/datavisards/FYI
-citation: |-
+citation_bibtex: |-
   @article{truong2026fyi,
     author = {Nguyen-Truong, Thinh and Du, Yuxuan and Konrad, Phongsakon Mark and Narechania, Arpit},
     title = {{Fact-Check Your Information (FYI): A Design Probe to Understand How People Actually Fact-Check Data-Driven Articles}},
     journal = {IEEE Transactions on Visualization and Computer Graphics},
     year = {2027},
     publisher = {IEEE},
-    note = {To appear. Presented at IEEE VIS 2026}
+    note = {In Press}
   }
+citation_apa: |-
+  Nguyen-Truong, T., Du, Y., Konrad, P. M., & Narechania, A. (2027). Fact-Check Your Information (FYI): A Design Probe to Understand How People Actually Fact-Check Data-Driven Articles. IEEE Transactions on Visualization and Computer Graphics. In Press
 ---

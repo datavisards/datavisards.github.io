@@ -24,7 +24,7 @@ abstract: >-
 links:
   vscode:
     - url: https://marketplace.visualstudio.com/items?itemName=georgiatechdb.sqlcheck
-citation: |-
+citation_bibtex: |-
   @article{ghosh2021sqlcheckdemo,
       author = {Ghosh, Arthita and Bansod, Deven and Narechania, Arpit and Dintyala, Prashanth and Timurturkan, Su and Arulraj, Joy},
       title = {{Interactive demonstration of SQLCheck}},
@@ -40,4 +40,6 @@ citation: |-
       month = jul,
       pages = {2779–2782},
       numpages = {4}}
+citation_apa: |-
+  Ghosh, A., Bansod, D., Narechania, A., Dintyala, P., Timurturkan, S., & Arulraj, J. (2021). Interactive demonstration of SQLCheck. Proceedings of the VLDB Endowment, 14(12), 2779–2782. https://doi.org/10.14778/3476311.3476343
 ---

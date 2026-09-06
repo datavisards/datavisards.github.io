@@ -21,7 +21,7 @@ links:
     - url: https://github.com/datavisards/WebSeek
   system:
     - url: https://chromewebstore.google.com/detail/webseek/bmmfomheomfealmdjhobphnobadlgdga
-citation: |-
+citation_bibtex: |-
   @inproceedings{huang2026webseek,
     author = {Huang, Yanwei and Narechania, Arpit},
     title = {{Facilitating Proactive and Reactive Guidance for Decision Making on the Web: A Design Probe with WebSeek}},
@@ -36,4 +36,6 @@ citation: |-
     numpages = {20},
     series = {CHI '26}
   }
+citation_apa: |-
+  Huang, Y., & Narechania, A. (2026). Facilitating Proactive and Reactive Guidance for Decision Making on the Web: A Design Probe with WebSeek. In Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26) (Article 800, 20 pages). Association for Computing Machinery. https://doi.org/10.1145/3772318.3791945
 ---

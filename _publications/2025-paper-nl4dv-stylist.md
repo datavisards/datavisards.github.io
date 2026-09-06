@@ -21,7 +21,7 @@ links:
     - url: https://pypi.org/project/nl4dv/4.2.0/
   website:
     - url: https://nl4dv.github.io
-citation: |-
+citation_bibtex: |-
   @misc{ji2025nl4dvstylist, 
     title = {{NL4DV-Stylist: Styling Data Visualizations Using Natural Language and Example Charts}},
     url = {osf.io/fs4en_v2},
@@ -31,4 +31,6 @@ citation: |-
     year={2025},
     month={Sep} 
   }
+citation_apa: |-
+  Ji, T., & Narechania, A. A. (2025). NL4DV-Stylist: Styling Data Visualizations Using Natural Language and Example Charts. OSF Preprints. https://doi.org/10.31219/osf.io/fs4en_v2
 ---

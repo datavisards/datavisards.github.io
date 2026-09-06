@@ -18,7 +18,7 @@ abstract: >-
 links:
   poster:
     - url: /assets/pdfs/publications/2023-poster-exploropleth-cridc.pdf
-citation: |-
+citation_bibtex: |-
   @misc{narechania2023exploroplethcridc,
     author = {Narechania, Arpit and Endert, Alex and Andris, Clio},
     title = {{Exploropleth: A Tour through the Data Binning Zoo for Choropleth Maps}},
@@ -27,4 +27,6 @@ citation: |-
     howpublished = {Poster at the Career, Research, and Innovation Development Conference (CRIDC), Georgia Tech},
     note = {Best Poster Award, Executive Vice President for Research}
   }
+citation_apa: |-
+  Narechania, A., Endert, A., & Andris, C. (2023). Exploropleth: A Tour through the Data Binning Zoo for Choropleth Maps. Poster at the Career, Research, and Innovation Development Conference (CRIDC), Georgia Tech. Best Poster Award, Executive Vice President for Research.
 ---

@@ -21,7 +21,7 @@ abstract: >-
 links:
   talk:
     - url: https://youtu.be/5vHhuuPy3FI
-citation: |-
+citation_bibtex: |-
   @inproceedings{dintyala2020sqlcheck,
       author = {Dintyala, Prashanth and Narechania, Arpit and Arulraj, Joy},
       title = {{SQLCheck: Automated Detection and Diagnosis of SQL Anti-Patterns}},
@@ -37,4 +37,6 @@ citation: |-
       location = {Portland, OR, USA},
       series = {SIGMOD '20}
     }
+citation_apa: |-
+  Dintyala, P., Narechania, A., & Arulraj, J. (2020). SQLCheck: Automated Detection and Diagnosis of SQL Anti-Patterns. In Proceedings of the 2020 ACM SIGMOD International Conference on Management of Data (SIGMOD '20) (pp. 2331–2345). Association for Computing Machinery. https://doi.org/10.1145/3318464.3389754
 ---

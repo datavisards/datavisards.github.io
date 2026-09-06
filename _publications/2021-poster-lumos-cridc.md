@@ -20,7 +20,7 @@ abstract: >-
 links:
   poster:
     - url: /assets/pdfs/publications/2021-poster-lumos-cridc.pdf
-citation: |-
+citation_bibtex: |-
   @misc{narechania2021lumoscridc,
     author = {Narechania, Arpit and Coscia, Adam and Wall, Emily and Endert, Alex},
     title = {{Lumos: Increasing Awareness of Analytic Behavior during Visual Data Analysis}},
@@ -31,4 +31,6 @@ citation: |-
     doi = {https://hdl.handle.net/1853/64385},
     url = {https://hdl.handle.net/1853/64385}
   }
+citation_apa: |-
+  Narechania, A., Coscia, A., Wall, E., & Endert, A. (2021). Lumos: Increasing Awareness of Analytic Behavior during Visual Data Analysis. Poster at the Career, Research, and Innovation Development Conference (CRIDC), Georgia Tech. Best Poster Award, Executive Vice President for Research. https://hdl.handle.net/1853/64385
 ---

@@ -20,9 +20,11 @@ Do not set Jekyll `date`. Use `year` and `month`.
 
 ## Front matter
 
-Field order: `title`, `authors`, `equal_contributors`, `venue`, `year`, `month`, `image`, `type`, `tags`, `recognitions`, `doi`, `pdf`, `abstract`, `links`, `citation`.
+Field order: `title`, `authors`, `equal_contributors`, `venue`, `year`, `month`, `image`, `type`, `tags`, `recognitions`, `doi`, `pdf`, `abstract`, `links`, `citation_bibtex`, `citation_apa`.
 
 Optional: `equal_contributors`, `tags`, `recognitions`, `doi`, `pdf`, `links`. Omit unused optional fields.
+
+`citation_bibtex` is the BibTeX record. `citation_apa` is the APA string derived from that record (full venue name, volume, pages).
 
 `type`: Journal, Conference, Short paper, Workshop, Demo, Poster, Preprint, Dissertation, Dataset, Patent.
 
@@ -61,11 +63,13 @@ links:
       url: https://...
   code:
     - url: https://github.com/...
-citation: |-
+citation_bibtex: |-
   @article{key,
     author = {...},
     title = {{Paper title}},
     year = {2026}
   }
+citation_apa: |-
+  Author, A. A., & Author, B. B. (2026). Paper title. IEEE Transactions on Visualization and Computer Graphics, 32(1), 1–10. https://doi.org/10.xxxx/xxxxx
 ---
 ```

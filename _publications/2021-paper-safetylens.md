@@ -27,7 +27,7 @@ links:
     - url: /assets/pdfs/slides/2021-slides-safetylens.pdf
   demo:
     - url: https://ocular.cc.gatech.edu/safetylens/src/
-citation: |-
+citation_bibtex: |-
   @article{narechania2020safetylens,
       author = {Narechania, Arpit and Qamar, Ahsan and Endert, Alex},
       title = {{SafetyLens: Visual Data Analysis of Functional Safety of Vehicles}},
@@ -40,4 +40,6 @@ citation: |-
       doi = {10.1109/TVCG.2020.3030382},
       url = {https://doi.org/10.1109/TVCG.2020.3030382}
   }
+citation_apa: |-
+  Narechania, A., Qamar, A., & Endert, A. (2021). SafetyLens: Visual Data Analysis of Functional Safety of Vehicles. IEEE Transactions on Visualization and Computer Graphics, 27(2), 1688–1697. https://doi.org/10.1109/TVCG.2020.3030382
 ---

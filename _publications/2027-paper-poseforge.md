@@ -18,13 +18,15 @@ links:
     - url: https://youtu.be/tb9lLB9w22Q
   code:
     - url: https://github.com/datavisards/PoseForge
-citation: |-
+citation_bibtex: |-
   @article{dash2026poseforge,
     author = {Dash, Shuvam Swapnil and Narechania, Arpit},
     title = {{PoseForge: Editable Pose Analytics for AI-Assisted Sports Coaching}},
     journal = {IEEE Transactions on Visualization and Computer Graphics},
     year = {2027},
     publisher = {IEEE},
-    note = {To appear. Presented at IEEE VIS 2026}
+    note = {In Press}
   }
+citation_apa: |-
+  Dash, S. S., & Narechania, A. (2027). PoseForge: Editable Pose Analytics for AI-Assisted Sports Coaching. IEEE Transactions on Visualization and Computer Graphics. In Press
 ---

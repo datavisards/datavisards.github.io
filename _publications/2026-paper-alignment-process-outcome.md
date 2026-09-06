@@ -18,7 +18,7 @@ abstract: >-
 links:
   poster:
     - url: /assets/pdfs/publications/2026-poster-alignment-process-outcome.pdf
-citation: |-
+citation_bibtex: |-
   @inproceedings{li2026alignmentprocessoutcome,
     author = {Li, Haichang and Zhu, Anjun and Narechania, Arpit},
     title = {{Alignment–Process–Outcome: Rethinking How AIs and Humans Collaborate}},
@@ -33,4 +33,6 @@ citation: |-
     numpages = {7},
     series = {CHI EA '26}
   }
+citation_apa: |-
+  Li, H., Zhu, A., & Narechania, A. (2026). Alignment–Process–Outcome: Rethinking How AIs and Humans Collaborate. In Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems (CHI EA '26) (Article 84, 7 pages). Association for Computing Machinery. https://doi.org/10.1145/3772363.3799032
 ---

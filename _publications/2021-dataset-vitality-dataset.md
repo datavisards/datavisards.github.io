@@ -18,7 +18,7 @@ abstract: >-
 links:
   dataset:
     - url: https://figshare.com/articles/dataset/VitaLITy_A_Dataset_of_Academic_Articles/14329151
-citation: |-
+citation_bibtex: |-
   @article{narechania2021vitalitydataset,
       author = "Arpit Narechania and Alireza Karduni and Ryan Wesslen and Emily Wall",
       title = {{VitaLITy: A Dataset of Academic Articles}},
@@ -27,4 +27,6 @@ citation: |-
       url = {https://figshare.com/articles/dataset/VitaLITy_A_Dataset_of_Academic_Articles/14329151},
       doi = {10.6084/m9.figshare.14329151.v1}
   }
+citation_apa: |-
+  Narechania, A., Karduni, A., Wesslen, R., & Wall, E. (2021). VitaLITy: A Dataset of Academic Articles. https://doi.org/10.6084/m9.figshare.14329151.v1
 ---

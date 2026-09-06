@@ -37,7 +37,7 @@ links:
     - url: https://www.npmjs.com/package/provenance-widgets/v/1.0.4
   website:
     - url: https://provenancewidgets.github.io
-citation: |-
+citation_bibtex: |-
   @article{narechania2025provenancewidgets,
       author = {Narechania, Arpit and Odak, Kaustubh and El-Assady, Mennatallah and Endert, Alex},
       journal = {IEEE Transactions on Visualization and Computer Graphics}, 
@@ -49,4 +49,6 @@ citation: |-
       doi = {10.1109/TVCG.2024.3456144},
       url = {https://doi.org/10.1109/TVCG.2024.3456144}
   }
+citation_apa: |-
+  Narechania, A., Odak, K., El-Assady, M., & Endert, A. (2025). ProvenanceWidgets: A Library of UI Control Elements to Track and Dynamically Overlay Analytic Provenance. IEEE Transactions on Visualization and Computer Graphics, 31(1), 1235–1245. https://doi.org/10.1109/TVCG.2024.3456144
 ---

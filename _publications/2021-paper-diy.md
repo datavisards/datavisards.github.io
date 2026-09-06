@@ -25,7 +25,7 @@ links:
     - url: https://youtu.be/itbddlIX_sA
   slides:
     - url: /assets/pdfs/slides/2021-slides-diy.pdf
-citation: |-
+citation_bibtex: |-
   @article{narechania2021diy,
       author = {Narechania, Arpit and Fourney, Adam and Lee, Bongshin and Ramos, Gonzalo},
       title = {{DIY: Assessing the Correctness of Natural Language to SQL Systems}},
@@ -41,4 +41,6 @@ citation: |-
       location = {College Station, TX, USA},
       series = {IUI '21}
   }
+citation_apa: |-
+  Narechania, A., Fourney, A., Lee, B., & Ramos, G. (2021). DIY: Assessing the Correctness of Natural Language to SQL Systems. In Proceedings of the 26th International Conference on Intelligent User Interfaces (IUI '21) (pp. 597–607). Association for Computing Machinery. https://doi.org/10.1145/3397481.3450667
 ---

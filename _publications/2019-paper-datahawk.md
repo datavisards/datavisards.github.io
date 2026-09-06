@@ -22,7 +22,7 @@ links:
     - url: https://youtu.be/6Wc8M0nu_FI
   demo:
     - url: https://ocular.cc.gatech.edu/datahawk
-citation: |-
+citation_bibtex: |-
   @article{basole2019understanding,
       author = {Basole, Rahul C and Qamar, Ahsan and Pal, Biswajyoti and Corral, Michael and Meinhart, Matthew and Narechania, Arpit},
       title = {{Understanding Failure Mode Effect Analysis Data Using Interactive Visual Analytics}},
@@ -35,4 +35,6 @@ citation: |-
       url = {https://doi.org/10.1109/MCG.2019.2944230},
       publisher = {IEEE}
   }
+citation_apa: |-
+  Basole, R. C., Qamar, A., Pal, B., Corral, M., Meinhart, M., & Narechania, A. (2019). Understanding Failure Mode Effect Analysis Data Using Interactive Visual Analytics. IEEE Computer Graphics and Applications, 39(6), 17–26. https://doi.org/10.1109/MCG.2019.2944230
 ---

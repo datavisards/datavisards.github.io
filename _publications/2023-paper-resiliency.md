@@ -27,7 +27,7 @@ links:
     - url: https://github.com/exploropleth/binguru
   npm:
     - url: https://www.npmjs.com/package/binguru
-citation: |-
+citation_bibtex: |-
   @InProceedings{narechania2023resiliency,
       author =	{Narechania, Arpit and Endert, Alex and Andris, Clio},
       title =	{{Resiliency: A Consensus Data Binning Method}},
@@ -45,4 +45,6 @@ citation: |-
       URN =		{urn:nbn:de:0030-drops-189509},
       doi =		{10.4230/LIPIcs.GIScience.2023.55}
   }
+citation_apa: |-
+  Narechania, A., Endert, A., & Andris, C. (2023). Resiliency: A Consensus Data Binning Method. In R. Beecham, J. A. Long, D. Smith, Q. Zhao, & S. Wise (Eds.), 12th International Conference on Geographic Information Science (GIScience 2023) (Leibniz International Proceedings in Informatics (LIPIcs)) (Vol. 277) (pp. 55:1–55:7). Schloss Dagstuhl – Leibniz-Zentrum für Informatik. https://doi.org/10.4230/LIPIcs.GIScience.2023.55
 ---

@@ -28,7 +28,7 @@ links:
     - url: https://www.npmjs.com/package/provenance-widgets/v/2.0.0
   website:
     - url: https://provenancewidgets.github.io
-citation: |-
+citation_bibtex: |-
   @inproceedings{verma2026superprovenancewidgets,
     author = {Verma, Antariksh and Odak, Kaustubh and Narechania, Arpit},
     title = {{SuperProvenanceWidgets: Tracking and Visualizing Analytic Provenance Across UI Control Elements}},
@@ -43,4 +43,6 @@ citation: |-
     numpages = {7},
     series = {CHI EA '26}
   }
+citation_apa: |-
+  Verma, A., Odak, K., & Narechania, A. (2026). SuperProvenanceWidgets: Tracking and Visualizing Analytic Provenance Across UI Control Elements. In Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems (CHI EA '26) (Article 625, 7 pages). Association for Computing Machinery. https://doi.org/10.1145/3772363.3798409
 ---

@@ -34,7 +34,7 @@ links:
     - url: https://pypi.org/project/nl4dv/3.0.0/
   website:
     - url: https://nl4dv.github.io/
-citation: |-
+citation_bibtex: |-
   @misc{sah2024nl4dvllm,
       author = {Subham Sah and Rishab Mitra and Arpit Narechania and Alex Endert and John Stasko and Wenwen Dou},
       title = {{Generating Analytic Specifications for Data Visualization from Natural Language Queries using Large Language Models}},
@@ -45,4 +45,6 @@ citation: |-
       url = {https://arxiv.org/abs/2408.13391},
       howpublished = {Presented at the NLVIZ Workshop, IEEE VIS 2024}
   }
+citation_apa: |-
+  Sah, S., Mitra, R., Narechania, A., Endert, A., Stasko, J., & Dou, W. (2024). Generating Analytic Specifications for Data Visualization from Natural Language Queries using Large Language Models. Presented at the NLVIZ Workshop, IEEE VIS 2024. https://arxiv.org/abs/2408.13391
 ---

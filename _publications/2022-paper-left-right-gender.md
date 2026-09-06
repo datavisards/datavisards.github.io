@@ -25,7 +25,7 @@ links:
     - url: https://youtu.be/hdKZnSeg-Hw
   talk:
     - url: https://youtu.be/z_DHjMe7ZZg
-citation: |-
+citation_bibtex: |-
   @article{wall2021lrg,
       author = {Wall, Emily and Narechania, Arpit and Coscia, Adam and Paden, Jamal and Endert, Alex},
       title = {{Left, Right, and Gender: Exploring Interaction Traces to Mitigate Human Biases}},
@@ -38,4 +38,6 @@ citation: |-
       url = {https://doi.org/10.1109/TVCG.2021.3114862},
       publisher = {IEEE}
   }
+citation_apa: |-
+  Wall, E., Narechania, A., Coscia, A., Paden, J., & Endert, A. (2022). Left, Right, and Gender: Exploring Interaction Traces to Mitigate Human Biases. IEEE Transactions on Visualization and Computer Graphics, 28(1), 966–975. https://doi.org/10.1109/TVCG.2021.3114862
 ---

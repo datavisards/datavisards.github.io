@@ -17,7 +17,7 @@ abstract: >-
 links:
   poster:
     - url: /assets/pdfs/publications/2026-poster-analyzing-genai-references.pdf
-citation: |-
+citation_bibtex: |-
   @inproceedings{ouyang2026references,
     author = {Ouyang, Jianheng and Narechania, Arpit},
     title = {{Analyzing the Presentation, Content, and Utilization of References in LLM-powered Conversational AI Systems}},
@@ -32,4 +32,6 @@ citation: |-
     numpages = {8},
     series = {CHI EA '26}
   }
+citation_apa: |-
+  Ouyang, J., & Narechania, A. (2026). Analyzing the Presentation, Content, and Utilization of References in LLM-powered Conversational AI Systems. In Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems (CHI EA '26) (Article 89, 8 pages). Association for Computing Machinery. https://doi.org/10.1145/3772363.3798415
 ---

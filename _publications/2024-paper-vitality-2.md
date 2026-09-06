@@ -24,7 +24,7 @@ links:
     - url: https://vitality.mathcs.emory.edu/vitality2/
   website:
     - url: https://vitality-vis.github.io/
-citation: |-
+citation_bibtex: |-
   @misc{an2024vitality2,
       author = {Hongye An and Arpit Narechania and Emily Wall and Kai Xu},
       title = {{vitaLITy 2: Reviewing Academic Literature Using Large Language Models}},
@@ -35,4 +35,6 @@ citation: |-
       url = {https://arxiv.org/abs/2408.13450},
       howpublished = {Presented at the NLVIZ Workshop, IEEE VIS 2024}
   }
+citation_apa: |-
+  An, H., Narechania, A., Wall, E., & Xu, K. (2024). vitaLITy 2: Reviewing Academic Literature Using Large Language Models. Presented at the NLVIZ Workshop, IEEE VIS 2024. https://arxiv.org/abs/2408.13450
 ---

@@ -33,7 +33,7 @@ links:
     - url: https://pypi.org/project/nl4dv/1.0.0/
   website:
     - url: https://nl4dv.github.io/nl4dv/
-citation: |-
+citation_bibtex: |-
   @article{narechania2020nl4dv,
       author = {Narechania, Arpit and Srinivasan, Arjun and Stasko, John},
       title = {{NL4DV: A Toolkit for Generating Analytic Specifications for Data Visualization from Natural Language Queries}},
@@ -46,4 +46,6 @@ citation: |-
       doi = {10.1109/TVCG.2020.3030378},
       url = {https://doi.org/10.1109/TVCG.2020.3030378}
   }
+citation_apa: |-
+  Narechania, A., Srinivasan, A., & Stasko, J. (2021). NL4DV: A Toolkit for Generating Analytic Specifications for Data Visualization from Natural Language Queries. IEEE Transactions on Visualization and Computer Graphics, 27(2), 369–379. https://doi.org/10.1109/TVCG.2020.3030378
 ---

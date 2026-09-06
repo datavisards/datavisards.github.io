@@ -74,15 +74,31 @@ layout: default
   </section>
   {% endif %}
 
-  {% if page.citation %}
+  {% if page.citation_bibtex or page.citation_apa %}
   <section class="project-section">
-    <div class="section-heading-row">
-      <h2>Citation</h2>
-      <button class="icon-button copy-button" type="button" data-copy-target="citation-{{ page.slug }}">
-        {% include icon.html name='copy' %}<span>Copy BibTeX</span>
-      </button>
+    <h2>Citation</h2>
+    {% if page.citation_bibtex %}
+    <div class="citation-block">
+      <div class="section-heading-row">
+        <h3>BibTeX</h3>
+        <button class="icon-button copy-button" type="button" data-copy-target="citation-bib-{{ page.slug }}">
+          {% include icon.html name='copy' %}<span>Copy</span>
+        </button>
+      </div>
+      <pre class="pub-citation" id="citation-bib-{{ page.slug }}"><code>{{ page.citation_bibtex }}</code></pre>
     </div>
-    <pre class="pub-citation" id="citation-{{ page.slug }}"><code>{{ page.citation }}</code></pre>
+    {% endif %}
+    {% if page.citation_apa %}
+    <div class="citation-block">
+      <div class="section-heading-row">
+        <h3>APA</h3>
+        <button class="icon-button copy-button" type="button" data-copy-target="citation-apa-{{ page.slug }}">
+          {% include icon.html name='copy' %}<span>Copy</span>
+        </button>
+      </div>
+      <pre class="pub-citation" id="citation-apa-{{ page.slug }}"><code>{{ page.citation_apa }}</code></pre>
+    </div>
+    {% endif %}
   </section>
   {% endif %}
 </article>

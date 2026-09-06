@@ -28,7 +28,7 @@ links:
     - url: https://exploropleth.github.io/exploropleth
   website:
     - url: https://exploropleth.github.io
-citation: |-
+citation_bibtex: |-
   @article{narechania2025exploropleth,
     author = {Arpit Narechania and Alex Endert and Clio Andris},
     title = {{Exploropleth: exploratory analysis of data binning methods in choropleth maps}},
@@ -42,4 +42,6 @@ citation: |-
     URL = {https://doi.org/10.1080/15230406.2025.2543483},
     eprint = {https://doi.org/10.1080/15230406.2025.2543483}
   }
+citation_apa: |-
+  Narechania, A., Endert, A., & Andris, C. (2025). Exploropleth: exploratory analysis of data binning methods in choropleth maps. Cartography and Geographic Information Science, 1–16. https://doi.org/10.1080/15230406.2025.2543483
 ---

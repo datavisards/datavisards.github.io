@@ -1,0 +1,18 @@
+{% assign work = include.work %}
+{% if work.citation_bibtex or work.citation_apa %}
+<details class="link-menu">
+  <summary class="icon-button">
+    {% include icon.html name='copy' %}<span>Citation</span>
+  </summary>
+  <div class="link-menu-panel">
+    {% if work.citation_bibtex %}
+    <button type="button" data-copy-target="bib-{{ work.slug }}">BibTeX</button>
+    {% endif %}
+    {% if work.citation_apa %}
+    <button type="button" data-copy-target="apa-{{ work.slug }}">APA</button>
+    {% endif %}
+  </div>
+</details>
+{% if work.citation_bibtex %}<pre id="bib-{{ work.slug }}" hidden>{{ work.citation_bibtex }}</pre>{% endif %}
+{% if work.citation_apa %}<pre id="apa-{{ work.slug }}" hidden>{{ work.citation_apa }}</pre>{% endif %}
+{% endif %}

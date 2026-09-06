@@ -18,7 +18,7 @@ doi: https://doi.org/10.1145/3772318.3791303
 pdf: /assets/pdfs/publications/2026-paper-elicitation-study.pdf
 abstract: >-
   In Human-Computer Interaction, eliciting user attitudes and beliefs is crucial for understanding user interactions with technology. Existing elicitation methods range from expressive open-ended text to structured formats like Likert scales. Expressive methods yield rich insights but are difficult to systematically analyze. On the other hand, structured methods guide users to efficiently map attitudes and beliefs to clear visual scales, yet may oversimplify complex attitudes and beliefs. Recent work has explored alternative methods including visual elicitation techniques; however, the understanding of how users mentally represent attitudes and beliefs remains limited, making it challenging to validate the effectiveness of these techniques. Through a qualitative study of US-based participants (N=41), we captured how people mentally represent their attitudes and beliefs through free-form drawings and complementary textual descriptions. Our findings reveal how the strategies participants employed to represent attitudes and beliefs can inform the design of future visual elicitation techniques that balance both expressiveness and analyzability.
-citation: |-
+citation_bibtex: |-
   @inproceedings{li2026elicitationstudy,
     author = {Li, Shiyao and Deva, Roshini and Narechania, Arpit and Karduni, Alireza and Bearfield, Cindy Xiong and Wall, Emily},
     title = {{Does a Picture Paint a Thousand Words? Using Visual and Textual Channels to Understand Attitudes and Beliefs}},
@@ -33,4 +33,6 @@ citation: |-
     numpages = {17},
     series = {CHI '26}
   }
+citation_apa: |-
+  Li, S., Deva, R., Narechania, A., Karduni, A., Bearfield, C. X., & Wall, E. (2026). Does a Picture Paint a Thousand Words? Using Visual and Textual Channels to Understand Attitudes and Beliefs. In Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26) (Article 1231, 17 pages). Association for Computing Machinery. https://doi.org/10.1145/3772318.3791303
 ---

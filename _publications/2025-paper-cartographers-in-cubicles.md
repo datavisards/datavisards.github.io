@@ -20,7 +20,7 @@ links:
     - url: https://youtu.be/pkK0216P68o
   slides:
     - url: /assets/pdfs/slides/2025-slides-cartographers-in-cubicles.pdf
-citation: |-
+citation_bibtex: |-
   @article{narechania2025cartographers,
     author = {Narechania, Arpit and Endert, Alex and Andris, Clio},
     title = {{Cartographers in Cubicles: How Training and Preferences of Mapmakers Interplay with Structures and Norms in Not-for-Profit Organizations}},
@@ -37,4 +37,6 @@ citation: |-
     articleno = {CSCW280},
     numpages = {24},
   }
+citation_apa: |-
+  Narechania, A., Endert, A., & Andris, C. (2025). Cartographers in Cubicles: How Training and Preferences of Mapmakers Interplay with Structures and Norms in Not-for-Profit Organizations. Proceedings of the ACM on Human-Computer Interaction, 9(7), Article CSCW280, 24 pages. https://doi.org/10.1145/3757461
 ---

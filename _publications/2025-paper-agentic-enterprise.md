@@ -14,7 +14,7 @@ tags:
 pdf: /assets/pdfs/publications/2025-paper-agentic-enterprise.pdf
 abstract: >-
   After a very long winter, the Artificial Intelligence (AI) spring is here. Or, so it seems over the last three years. AI has the potential to impact many areas of human life - personal, social, health, education, professional. In this paper, we take a closer look at the potential of AI for Enterprises, where decision-making plays a crucial and repeated role across functions, tasks, and operations. We consider Agents imbued with AI as means to increase decision-productivity of enterprises. We highlight six tenets for Agentic success in enterprises, by drawing attention to what the current, AI-Centric User paradigm misses, in the face of persistent needs of and usefulness for Enterprise Decision-Making. In underscoring a shift to User-Centric AI, we offer six tenets and promote market mechanisms for platforms, aligning the design of AI and its delivery by Agents to the cause of enterprise users.
-citation: |-
+citation_bibtex: |-
   @misc{narechania2025agenticenterprise,
       author = {Arpit Narechania and Alex Endert and Atanu R Sinha},
       title = {{Agentic Enterprise: AI-Centric User to User-Centric AI}},
@@ -24,6 +24,8 @@ citation: |-
       primaryClass = {cs.AI},
       url = {https://arxiv.org/abs/2506.22893},
   }
+citation_apa: |-
+  Narechania, A., Endert, A., & Sinha, A. R. (2025). Agentic Enterprise: AI-Centric User to User-Centric AI. arXiv. https://arxiv.org/abs/2506.22893
 ---
 
 ## Six tenets of user-centric AI

@@ -22,7 +22,7 @@ links:
     - url: https://youtu.be/eh1WVYl25Dk
   slides:
     - url: /assets/pdfs/slides/2025-slides-guidance-source-matters.pdf
-citation: |-
+citation_bibtex: |-
   @inproceedings{narechania2025guidancesourcematters,
     author = {Narechania, Arpit and Endert, Alex and Sinha, Atanu R},
     title = {{Guidance Source Matters: How Guidance from AI, Expert, or a Group of Analysts Impacts Visual Data Preparation and Analysis}},
@@ -37,4 +37,6 @@ citation: |-
     numpages = {21},
     series = {IUI '25}
   }
+citation_apa: |-
+  Narechania, A., Endert, A., & Sinha, A. R. (2025). Guidance Source Matters: How Guidance from AI, Expert, or a Group of Analysts Impacts Visual Data Preparation and Analysis. In Proceedings of the 30th International Conference on Intelligent User Interfaces (IUI '25) (pp. 789–809). Association for Computing Machinery. https://doi.org/10.1145/3708359.3712166
 ---

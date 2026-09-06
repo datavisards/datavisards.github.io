@@ -406,7 +406,11 @@
       var original = button.innerHTML;
       navigator.clipboard.writeText(target.textContent.trim()).then(function () {
         button.textContent = "Copied";
-        setTimeout(function () { button.innerHTML = original; }, 1600);
+        setTimeout(function () {
+          button.innerHTML = original;
+          var menu = button.closest("details.link-menu");
+          if (menu) menu.removeAttribute("open");
+        }, 1600);
       });
     });
   });

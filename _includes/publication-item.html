@@ -56,12 +56,7 @@
       </a>
       {% endif %}
       {% if pub.links %}{% include publication-links.html links=pub.links %}{% endif %}
-      {% if pub.citation %}
-      <button class="icon-button" type="button" data-copy-target="bib-{{ pub.slug }}">
-        {% include icon.html name='copy' %}<span>BibTeX</span>
-      </button>
-      <pre id="bib-{{ pub.slug }}" hidden>{{ pub.citation }}</pre>
-      {% endif %}
+      {% include citation-copy-menu.html work=pub %}
     </div>
   </div>
 </article>

@@ -32,7 +32,7 @@ links:
     - url: https://pypi.org/project/nl4dv/2.1.0/
   website:
     - url: https://nl4dv.github.io/
-citation: |-
+citation_bibtex: |-
   @article{mitra2022conversational,
       author = {Mitra, Rishab and Narechania, Arpit and Endert, Alex and Stasko, John},
       booktitle = {2022 IEEE Visualization and Visual Analytics (VIS)}, 
@@ -44,4 +44,6 @@ citation: |-
       doi = {10.1109/VIS54862.2022.00010},
       url = {https://doi.org/10.1109/VIS54862.2022.00010}
   }
+citation_apa: |-
+  Mitra, R., Narechania, A., Endert, A., & Stasko, J. (2022). Facilitating Conversational Interaction in Natural Language Interfaces for Visualization. In 2022 IEEE Visualization and Visual Analytics (VIS) (pp. 6–10). https://doi.org/10.1109/VIS54862.2022.00010
 ---

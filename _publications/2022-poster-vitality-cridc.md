@@ -20,7 +20,7 @@ abstract: >-
 links:
   poster:
     - url: /assets/pdfs/publications/2022-poster-vitality-cridc.pdf
-citation: |-
+citation_bibtex: |-
   @misc{narechania2022vitalitycridc,
     author = {Narechania, Arpit and Karduni, Alireza and Wesslen, Ryan and Wall, Emily},
     title = {{vitaLITy: Promoting Serendipitous Discovery of Academic Literature}},
@@ -31,4 +31,6 @@ citation: |-
     doi = {https://hdl.handle.net/1853/66240},
     url = {https://hdl.handle.net/1853/66240}
   }
+citation_apa: |-
+  Narechania, A., Karduni, A., Wesslen, R., & Wall, E. (2022). vitaLITy: Promoting Serendipitous Discovery of Academic Literature. Poster at the Career, Research, and Innovation Development Conference (CRIDC), Georgia Tech. Best Poster Award, College of Computing. https://hdl.handle.net/1853/66240
 ---

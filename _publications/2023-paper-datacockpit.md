@@ -36,7 +36,7 @@ links:
     - url: https://github.com/orgs/datacockpit-org
   pypi:
     - url: https://pypi.org/project/datacockpit/
-citation: |-
+citation_bibtex: |-
   @inproceedings{narechania2023datacockpit,
       author = {Narechania, Arpit and Chakraborty, Surya and Agarwal, Shivam and Sinha, Atanu R and Rossi, Ryan A. and Du, Fan and Hoffswell, Jane and Guo, Shunan and Koh, Eunyee and Endert, Alex and Navathe, Shamkant},
       title = {{DataCockpit: A Toolkit for Data Lake Navigation and Monitoring Utilizing Quality and Usage Information}},
@@ -48,4 +48,6 @@ citation: |-
       doi = {https://doi.org/10.1109/BigData59044.2023.10386133},
       url = {https://doi.org/10.1109/BigData59044.2023.10386133}
   }
+citation_apa: |-
+  Narechania, A., Chakraborty, S., Agarwal, S., Sinha, A. R., Rossi, R. A., Du, F., Hoffswell, J., Guo, S., Koh, E., Endert, A., & Navathe, S. (2023). DataCockpit: A Toolkit for Data Lake Navigation and Monitoring Utilizing Quality and Usage Information. In 2023 IEEE International Conference on Big Data (BigData) (pp. 5305–5310). https://doi.org/10.1109/BigData59044.2023.10386133
 ---

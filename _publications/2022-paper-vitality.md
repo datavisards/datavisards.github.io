@@ -33,7 +33,7 @@ links:
     - url: https://github.com/vitality-vis
   website:
     - url: https://vitality-vis.github.io/
-citation: |-
+citation_bibtex: |-
   @article{narechania2021vitality,
       author = {Narechania, Arpit and Karduni, Alireza and Wesslen, Ryan and Wall, Emily},
       title = {{vitaLITy: Promoting Serendipitous Discovery of Academic Literature with Transformers \& Visual Analytics}},
@@ -46,4 +46,6 @@ citation: |-
       url = {https://doi.org/10.1109/TVCG.2021.3114820},
       publisher = {IEEE}
   }
+citation_apa: |-
+  Narechania, A., Karduni, A., Wesslen, R., & Wall, E. (2022). vitaLITy: Promoting Serendipitous Discovery of Academic Literature with Transformers & Visual Analytics. IEEE Transactions on Visualization and Computer Graphics, 28(1), 486–496. https://doi.org/10.1109/TVCG.2021.3114820
 ---

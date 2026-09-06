@@ -23,7 +23,7 @@ links:
     - url: https://youtu.be/8Wm7GvN9c90
   poster:
     - url: /assets/pdfs/publications/2024-poster-biasbuzz.pdf
-citation: |-
+citation_bibtex: |-
   @inproceedings{paden2024biasbuzz,
       author = {Paden, Jamal R and Narechania, Arpit and Endert, Alex},
       title = {{BiasBuzz: Combining Visual Guidance with Haptic Feedback to Increase Awareness of Analytic Behavior during Visual Data Analysis}},
@@ -39,4 +39,6 @@ citation: |-
       location = {Honolulu, HI, USA},
       series = {CHI EA '24}
     }
+citation_apa: |-
+  Paden, J. R., Narechania, A., & Endert, A. (2024). BiasBuzz: Combining Visual Guidance with Haptic Feedback to Increase Awareness of Analytic Behavior during Visual Data Analysis. In Extended Abstracts of the CHI Conference on Human Factors in Computing Systems (CHI EA '24) (Article 59, 7 pages). Association for Computing Machinery. https://doi.org/10.1145/3613905.3651064
 ---

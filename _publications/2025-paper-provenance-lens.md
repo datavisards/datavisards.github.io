@@ -22,7 +22,7 @@ links:
     - url: https://youtu.be/GmtMw6krrNU
   slides:
     - url: /assets/pdfs/slides/2025-slides-provenance-lens.pdf
-citation: |-
+citation_bibtex: |-
   @article{narechania2025provenancelens,
       author = {Narechania, Arpit and Guo, Shunan and Koh, Eunyee and Endert, Alex and Hoffswell, Jane},
       journal = {IEEE Transactions on Visualization and Computer Graphics}, 
@@ -34,4 +34,6 @@ citation: |-
       doi = {10.1109/TVCG.2025.3571708},
       url = {https://doi.org/10.1109/TVCG.2025.3571708}
   }
+citation_apa: |-
+  Narechania, A., Guo, S., Koh, E., Endert, A., & Hoffswell, J. (2025). Utilizing Provenance as an Attribute for Visual Data Analysis: A Design Probe With ProvenanceLens. IEEE Transactions on Visualization and Computer Graphics, 31(10), 8452–8465. https://doi.org/10.1109/TVCG.2025.3571708
 ---

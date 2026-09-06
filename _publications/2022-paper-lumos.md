@@ -31,7 +31,7 @@ links:
     - url: https://github.com/lumos-vis
   website:
     - url: https://lumos-vis.github.io/
-citation: |-
+citation_bibtex: |-
   @article{narechania2021lumos,
       author = {Narechania, Arpit and Coscia, Adam and Wall, Emily and Endert, Alex},
       title = {{Lumos: Increasing Awareness of Analytic Behavior during Visual Data Analysis}},
@@ -44,4 +44,6 @@ citation: |-
       url = {https://doi.org/10.1109/TVCG.2021.3114827},
       publisher = {IEEE}
   }
+citation_apa: |-
+  Narechania, A., Coscia, A., Wall, E., & Endert, A. (2022). Lumos: Increasing Awareness of Analytic Behavior during Visual Data Analysis. IEEE Transactions on Visualization and Computer Graphics, 28(1), 1009–1018. https://doi.org/10.1109/TVCG.2021.3114827
 ---

@@ -22,7 +22,7 @@ links:
       url: https://www.cc.gatech.edu/news/phd-graduate-follows-footsteps-advisor-receiving-dissertation-award
     - label: HKUST
       url: https://seng.hkust.edu.hk/news/20251203/prof-arpit-narechania-received-ieee-vgtc-visualization-dissertation-award
-citation: |-
+citation_bibtex: |-
   @phdthesis{narechania2024guidance,
     author = {Narechania, Arpit Ajay},
     title = {{Designing, Developing, and Democratizing Guidance for Visual Analytics}},
@@ -33,4 +33,6 @@ citation: |-
     doi = {https://hdl.handle.net/1853/76976},
     url = {https://hdl.handle.net/1853/76976}
   }
+citation_apa: |-
+  Narechania, A. A. (2024). Designing, Developing, and Democratizing Guidance for Visual Analytics [Ph.D. dissertation, Georgia Institute of Technology]. https://hdl.handle.net/1853/76976
 ---

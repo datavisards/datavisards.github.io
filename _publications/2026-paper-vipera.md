@@ -24,7 +24,7 @@ links:
     - url: http://191host013.mobilenet.cse.ust.hk/vipera/
   code:
     - url: https://github.com/Ais0n/Vipera
-citation: |-
+citation_bibtex: |-
   @inproceedings{huang2026vipera,
     author = {Huang, Yanwei and Hanwen Deng, Wesley and Xiao, Sijia and Eslami, Motahhare and Hong, Jason I. and Narechania, Arpit and Perer, Adam},
     title = {{Vipera: Blending Visual and LLM-Driven Guidance for Systematic Auditing of Text-to-Image Generative AI}},
@@ -39,4 +39,6 @@ citation: |-
     numpages = {18},
     series = {CHI '26}
   }
+citation_apa: |-
+  Huang, Y., Hanwen Deng, W., Xiao, S., Eslami, M., Hong, J. I., Narechania, A., & Perer, A. (2026). Vipera: Blending Visual and LLM-Driven Guidance for Systematic Auditing of Text-to-Image Generative AI. In Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI '26) (Article 698, 18 pages). Association for Computing Machinery. https://doi.org/10.1145/3772318.3791942
 ---
