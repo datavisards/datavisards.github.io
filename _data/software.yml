@@ -80,7 +80,7 @@
 - name: Lumos
   description: Visual analysis tool that surfaces interaction history during exploration.
   image: /assets/images/software/lumos.png
-  demo: https://lumos-webapp-4aeadb3bf30d.herokuapp.com/
+  demo: https://lumos-1stu.onrender.com/
   code: https://github.com/lumos-vis/Lumos
 
 - name: SQLCheck

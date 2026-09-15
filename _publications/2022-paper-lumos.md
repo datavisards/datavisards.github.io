@@ -26,7 +26,7 @@ links:
   poster:
     - url: /assets/pdfs/publications/2021-poster-lumos-cridc.pdf
   demo:
-    - url: https://lumos-webapp-4aeadb3bf30d.herokuapp.com/
+    - url: https://lumos-1stu.onrender.com/
   code:
     - url: https://github.com/lumos-vis
   website:
