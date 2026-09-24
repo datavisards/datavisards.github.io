@@ -44,7 +44,9 @@ core:
   - name: Jianheng Ouyang
     program: MPhil CSE
     period: "2026-"
-    photo: /assets/images/people/jianheng.jpg
+    website: https://leonl0ve.github.io/
+    photo: /assets/images/people/jianheng.png
+    photo_fun: /assets/images/people/fun/jianheng.jpg
 
 intern_groups:
   - program: PG Intern
