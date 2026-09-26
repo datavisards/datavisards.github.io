@@ -83,8 +83,8 @@ coursework_columns:
       - course: ARIN 6900
         projects:
           - students:
-              - { name: Mridul Kumar Sharma, period: "Spring 2026 · Summer 2026" }
-      - { name: Nok Chan, period: Fall 2026 }
+              - { name: Mridul Kumar Sharma, period: "Fall 2026 · Spring 2026" }
+              - { name: Nok Chan, period: Fall 2026 }
       - course: CSIT 6910
         projects:
           - students:
