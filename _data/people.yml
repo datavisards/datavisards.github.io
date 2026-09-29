@@ -30,6 +30,7 @@ core:
     period: "2026-"
     website: https://meow-wwww.github.io/
     photo: /assets/images/people/xiaoyu.jpg
+    photo_fun: /assets/images/people/fun/xiaoyu.png
   - name: Eman Ansar
     program: MPhil CSE
     period: "2025-"
