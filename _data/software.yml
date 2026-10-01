@@ -42,8 +42,8 @@
 - name: Chess Annotator
   description: Sketch arrows on a chessboard to annotate or actually play a game.
   image: /assets/images/software/chess-annotator.png
-  demo: https://narechania.com/chess-annotator/
-  code: https://github.com/arpitnarechania/chess-annotator
+  demo: https://datavisards.com/chess-annotator/
+  code: https://github.com/datavisards/chess-annotator
 
 - name: BinGuru
   description: TypeScript library for data binning/classification methods.
