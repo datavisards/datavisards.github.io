@@ -1,14 +1,21 @@
 {% assign person = include.person %}
 {% assign photo = person.photo | default: '/assets/images/people/placeholder.svg' %}
 {% assign photo_fun = person.photo_fun | default: photo %}
+{% assign period_label = person.period %}
+{% assign period_end = person.period | slice: -1 %}
+{% if period_end == '-' %}{% assign period_label = period_label | append: 'present' %}{% endif %}
+{% assign period_label = period_label | replace: '-', '–' %}
 {% if person.website %}<a class="people-card people-card-link" href="{{ person.website }}" aria-label="{{ person.name }} website">{% else %}<article class="people-card">{% endif %}
   <div class="people-photo-swap">
     <img class="people-photo" src="{{ photo | relative_url }}" alt="Portrait of {{ person.name }}" loading="lazy">
     <img class="people-photo-fun" src="{{ photo_fun | relative_url }}" alt="" loading="lazy">
   </div>
   <h3 class="people-name">{{ person.name }}</h3>
-  <p class="people-program">{{ person.program }}{% if person.period %} · {{ person.period }}{% endif %}</p>
+  <p class="people-program">{{ person.program }}</p>
+  {% if period_label %}
+  <p class="people-period">{{ period_label }}</p>
+  {% endif %}
   {% if person.co_supervisor %}
-  <p class="people-co-supervisor">(co-supervised w/ {{ person.co_supervisor }})</p>
+  <p class="people-co-supervisor">Co-advised by <span class="nowrap">{{ person.co_supervisor }}</span></p>
   {% endif %}
 {% if person.website %}</a>{% else %}</article>{% endif %}

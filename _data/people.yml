@@ -36,7 +36,7 @@ core:
     period: "2025-"
     website: https://ema-ans.github.io/
     photo: /assets/images/people/eman.png
-  - name: Thinh Nguyen Truong (Theo)
+  - name: Thinh Nguyen Truong
     publication_names: [Thinh Nguyen Truong, Nguyen-Truong Thinh]
     program: MPhil CSE
     period: "2026-"

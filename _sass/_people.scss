@@ -1,6 +1,6 @@
 .people-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(9.5rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
   gap: 0.65rem;
 }
 
@@ -27,9 +27,9 @@
 
 .people-photo-swap {
   position: relative;
-  width: 45%;
+  width: 62%;
   aspect-ratio: 1;
-  margin: 0 auto 0.45rem;
+  margin: 0.15rem auto 0.6rem;
   perspective: 600px;
 
   img {
@@ -38,6 +38,7 @@
     width: 100%;
     height: 100%;
     border-radius: 50%;
+    box-shadow: 0 0 0 1px $border-color, 0 1px 3px rgba(0, 0, 0, 0.08);
     backface-visibility: hidden;
     object-fit: cover;
     transition: transform 0.42s ease;
@@ -64,16 +65,28 @@
 
 .people-program {
   margin: 0;
-  color: $grey-color;
+  color: $text-color;
   font-size: $min-font-size;
   line-height: 1.35;
 }
 
+.people-period {
+  margin: 0;
+  color: $grey-color;
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.35;
+}
+
 .people-co-supervisor {
-  margin: 0.12rem 0 0;
+  margin: 0.3rem 0 0;
   color: $grey-color;
   font-size: 0.75rem;
   line-height: 1.25;
+
+  .nowrap {
+    white-space: nowrap;
+  }
 }
 
 .people-section {
