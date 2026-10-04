@@ -36,12 +36,13 @@ core:
     period: "2025-"
     website: https://ema-ans.github.io/
     photo: /assets/images/people/eman.png
-  - name: Thinh Nguyen Truong (Theo)
+  - name: Thinh Nguyen Truong
     publication_names: [Thinh Nguyen Truong, Nguyen-Truong Thinh]
     program: MPhil CSE
     period: "2026-"
-    website: https://linkedin.com/in/thinh-nguyentruong
-    photo: /assets/images/people/theo.png
+    website: https://thinhnguyentruong.com
+    photo: /assets/images/people/theo.jpg
+    photo_fun: /assets/images/people/fun/theo.jpg
   - name: Jianheng Ouyang
     program: MPhil CSE
     period: "2026-"
