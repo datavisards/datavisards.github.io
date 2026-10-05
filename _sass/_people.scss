@@ -27,8 +27,10 @@
 
 .people-photo-swap {
   position: relative;
+  flex-shrink: 0;
   width: 62%;
-  aspect-ratio: 1;
+  height: 0;
+  padding-bottom: 62%;
   margin: 0.15rem auto 0.6rem;
   perspective: 600px;
 
